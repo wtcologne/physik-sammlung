@@ -1,0 +1,186 @@
+{
+  "mechanik": [
+    {
+      "id": "ef-physik-in-sport-und-verkehr-1",
+      "title": "Physik in Sport & Verkehr I – Kinematik",
+      "route": "/mechanik/ef-physik-in-sport-und-verkehr-1",
+      "description": "Bewegungen beschreiben, vermessen und analysieren (gleichförmig, gleichmäßig beschleunigt, freier Fall, Wurf).",
+      "topics": ["gleichförmige Bewegung", "gleichmäßig beschleunigte Bewegung", "freier Fall", "waagerechter Wurf", "Vektoren"],
+      "hours": 25,
+      "level": "Sek II",
+      "stage": "EF",
+      "course": "EF"
+    },
+    {
+      "id": "ef-physik-in-sport-und-verkehr-2",
+      "title": "Physik in Sport & Verkehr II – Dynamik",
+      "route": "/mechanik/ef-physik-in-sport-und-verkehr-2",
+      "description": "Ursachen von Bewegungen: Newtonsche Gesetze, Kräftegleichgewicht, Reibung.",
+      "topics": ["Newtonsche Gesetze", "Kräftegleichgewicht", "Reibung", "Energie/Impuls (Überblick)"],
+      "hours": 15,
+      "level": "Sek II",
+      "stage": "EF",
+      "course": "EF"
+    },
+    {
+      "id": "ef-superhelden-und-crashtests",
+      "title": "Superhelden & Crashtests – Erhaltungssätze",
+      "route": "/mechanik/ef-superhelden-und-crashtests",
+      "description": "Impuls- und Energieerhaltung, Stöße, Energiebilanzen.",
+      "topics": ["Impuls", "Energie", "elastische/inelastische Stöße", "Energiebilanz"],
+      "hours": 12,
+      "level": "Sek II",
+      "stage": "EF",
+      "course": "EF"
+    },
+    {
+      "id": "ef-bewegungen-im-weltraum",
+      "title": "Bewegungen im Weltraum – Kreisbewegung & Gravitation",
+      "route": "/mechanik/ef-bewegungen-im-weltraum",
+      "description": "Kreisbewegung, Zentripetalkraft, Gravitation, Kepler-Gesetze.",
+      "topics": ["gleichförmige Kreisbewegung", "Zentripetalkraft", "Gravitationsgesetz", "Kepler-Gesetze"],
+      "hours": 20,
+      "level": "Sek II",
+      "stage": "EF",
+      "course": "EF"
+    },
+    {
+      "id": "ef-weltbilder-in-der-physik",
+      "title": "Weltbilder in der Physik – Vom Geo- zum Heliozentrischen & SRT",
+      "route": "/mechanik/ef-weltbilder-in-der-physik",
+      "description": "Wandel von Weltbildern, Grundideen der Speziellen Relativität (Zeitdilatation).",
+      "topics": ["geo-/heliozentrisch", "Bezugssysteme", "Lichtgeschwindigkeit", "Zeitdilatation"],
+      "hours": 8,
+      "level": "Sek II",
+      "stage": "EF",
+      "course": "EF"
+    },
+    {
+      "id": "q-gk-periodische-vorgaenge",
+      "title": "Periodische Vorgänge – Schwingungen & mechanische Wellen (GK)",
+      "route": "/mechanik/q-gk-periodische-vorgaenge",
+      "description": "Harmonische Schwingungen, stehende Wellen, Kenngrößen & einfache Modelle.",
+      "topics": ["harmonische Schwingung", "Federpendel", "stehende Wellen", "Amplitude", "Frequenz", "Wellenlänge", "Ausbreitungsgeschwindigkeit"],
+      "hours": 10,
+      "level": "Sek II",
+      "stage": null,
+      "course": "GK"
+    }
+  ],
+  "optik": [
+    {
+      "id": "q-gk-beugung-und-interferenz",
+      "title": "Beugung & Interferenz von Wellen – ein neues Lichtmodell (GK)",
+      "route": "/optik/q-gk-beugung-und-interferenz",
+      "description": "Huygens-Prinzip, Reflexion/Brechung, Beugung, Interferenz, Polarisation.",
+      "topics": ["Huygens-Prinzip", "Reflexion", "Brechung", "Beugung", "Interferenz", "Polarisation"],
+      "hours": 18,
+      "level": "Sek II",
+      "stage": null,
+      "course": "GK"
+    },
+    {
+      "id": "q-gk-quantenobjekte",
+      "title": "Photonen & Elektronen als Quantenobjekte (GK)",
+      "route": "/optik/q-gk-quantenobjekte",
+      "description": "Welle-Teilchen-Dualismus, De-Broglie, Doppelspalt, Kopenhagener Deutung, Photoeffekt.",
+      "topics": ["Doppelspalt", "De-Broglie", "Photoeffekt", "Wahrscheinlichkeitsinterpretation", "Komplementarität"],
+      "hours": 18,
+      "level": "Sek II",
+      "stage": null,
+      "course": "GK"
+    },
+    {
+      "id": "q-lk-wellen-und-interferenzphaenomene",
+      "title": "Wellen & Interferenzphänomene (LK)",
+      "route": "/optik/q-lk-wellen-und-interferenzphaenomene",
+      "description": "Quantitative Interferenz (Einzel-/Doppelspalt/Gitter), stehende Wellen, Michelson-Interferometer.",
+      "topics": ["Interferenzbedingungen", "stehende Wellen", "Michelson-Interferometer", "EM-Wellen qualitativ"],
+      "hours": 12,
+      "level": "Sek II",
+      "stage": null,
+      "course": "LK"
+    },
+    {
+      "id": "q-lk-quantenphysik-weltbild",
+      "title": "Quantenphysik als Weiterentwicklung des Weltbildes (LK)",
+      "route": "/optik/q-lk-quantenphysik-weltbild",
+      "description": "Photoeffekt, Elektronenbeugung, Heisenberg-Relation, Delayed-Choice & Deutung.",
+      "topics": ["Photoeffekt", "Elektronenbeugung", "Unschärferelation", "Delayed-Choice", "Interpretationen"],
+      "hours": 30,
+      "level": "Sek II",
+      "stage": null,
+      "course": "LK"
+    }
+  ],
+  "elektrizitaetslehre": [
+    {
+      "id": "q-gk-erforschung-des-elektrons",
+      "title": "Erforschung des Elektrons – Teilchen in Feldern (GK)",
+      "route": "/elektrizitaetslehre/q-gk-erforschung-des-elektrons",
+      "description": "E- & B-Felder, Lorentzkraft, Fadenstrahlrohr, Millikan.",
+      "topics": ["elektrische Felder", "magnetische Felder", "Lorentzkraft", "Fadenstrahlrohr", "Millikan"],
+      "hours": 26,
+      "level": "Sek II",
+      "stage": null,
+      "course": "GK"
+    },
+    {
+      "id": "q-gk-energieversorgung-und-transport",
+      "title": "Energieversorgung & Transport – Generatoren & Transformatoren (GK)",
+      "route": "/elektrizitaetslehre/q-gk-energieversorgung-und-transport",
+      "description": "Induktion, Wechselspannung, Generator, Trafo, EM-Schwingung (Überblick).",
+      "topics": ["magnetischer Fluss", "Induktionsgesetz", "Lenz-Regel", "Wechselspannung", "Generator", "Transformator", "Schwingkreis (Grundlagen)"],
+      "hours": 18,
+      "level": "Sek II",
+      "stage": null,
+      "course": "GK"
+    },
+    {
+      "id": "q-lk-ladungstraeger-in-feldern",
+      "title": "Ladungsträger in E- und B-Feldern (LK)",
+      "route": "/elektrizitaetslehre/q-lk-ladungstraeger-in-feldern",
+      "description": "Coulomb, Feldstärke/Potenzial, Lorentzkraft, Hall-Effekt.",
+      "topics": ["Coulomb-Gesetz", "Feldstärke", "Potenzial/Spannung", "Lorentzkraft", "Hall-Effekt"],
+      "hours": 40,
+      "level": "Sek II",
+      "stage": null,
+      "course": "LK"
+    },
+    {
+      "id": "q-lk-massenspektrometer-zyklotron",
+      "title": "Massenspektrometer & Zyklotron – Anwendungen (LK)",
+      "route": "/elektrizitaetslehre/q-lk-massenspektrometer-zyklotron",
+      "description": "Bewegungen geladener Teilchen, gekreuzte Felder, Anwendungen in Forschung/Technik.",
+      "topics": ["gekreuzte Felder", "Zyklotron", "Massenspektrometer", "relativistische Effekte (Überblick)"],
+      "hours": 10,
+      "level": "Sek II",
+      "stage": null,
+      "course": "LK"
+    },
+    {
+      "id": "q-lk-elektromagnetische-induktion",
+      "title": "Elektromagnetische Induktion (LK)",
+      "route": "/elektrizitaetslehre/q-lk-elektromagnetische-induktion",
+      "description": "Fluss/Induktionsgesetz (auch differenziell), Selbstinduktion/Induktivität, Energieumwandlung.",
+      "topics": ["magnetischer Fluss", "Induktionsgesetz", "Lenz-Regel", "Selbstinduktion", "Induktivität"],
+      "hours": 25,
+      "level": "Sek II",
+      "stage": null,
+      "course": "LK"
+    },
+    {
+      "id": "q-lk-kondensator-und-spule",
+      "title": "Kondensator & Spule – zeitliche/energetische Betrachtungen (LK)",
+      "route": "/elektrizitaetslehre/q-lk-kondensator-und-spule",
+      "description": "Energie in Feldern, RC-/Schwingkreis-Vorgänge, zeitliche Verläufe & Kenngrößen.",
+      "topics": ["Kapazität/Energie", "Auf-/Entladen (RC)", "Schwingkreis", "Thomson-Gleichung (Überblick)"],
+      "hours": 20,
+      "level": "Sek II",
+      "stage": null,
+      "course": "LK"
+    }
+  ]
+}
+
+

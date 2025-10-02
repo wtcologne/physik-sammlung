@@ -1,0 +1,220 @@
+{
+  "app": {
+    "title": "Physik-Simulationen",
+    "version": 1
+  },
+  "categories": [
+    {
+      "id": "mechanik",
+      "title": "Mechanik",
+      "route": "/mechanik",
+      "tiles": [
+        {
+          "id": "6-5-physik-und-musik",
+          "code": "6.5",
+          "grade": 6,
+          "title": "Physik und Musik",
+          "subtitle": "Schwingungen & Schall",
+          "hours": 6,
+          "topics": ["Schwingungen", "Schallausbreitung", "Tonhöhe", "Lautstärke", "Sender-Empfänger-Modell"],
+          "route": "/mechanik/6-5-physik-und-musik"
+        },
+        {
+          "id": "6-6-achtung-laerm",
+          "code": "6.6",
+          "grade": 6,
+          "title": "Achtung Lärm!",
+          "subtitle": "Lärm, Absorption, Reflexion",
+          "hours": 4,
+          "topics": ["Schallausbreitung", "Absorption", "Reflexion", "Lärmschutz"],
+          "route": "/mechanik/6-6-achtung-laerm"
+        },
+        {
+          "id": "6-7-schall-in-natur-und-technik",
+          "code": "6.7",
+          "grade": 6,
+          "title": "Schall in Natur und Technik",
+          "subtitle": "Ultraschall & Anwendungen",
+          "hours": 2,
+          "topics": ["Ultraschall", "Tierwelt", "Medizin", "Technik"],
+          "route": "/mechanik/6-7-schall-in-natur-und-technik"
+        },
+        {
+          "id": "9-2-100m-in-10-sekunden",
+          "code": "9.2",
+          "grade": 9,
+          "title": "100 m in 10 Sekunden",
+          "subtitle": "Geschwindigkeit & Beschleunigung",
+          "hours": 6,
+          "topics": ["Geschwindigkeit", "Beschleunigung", "Messdaten & Diagramme"],
+          "route": "/mechanik/9-2-100m-in-10-sekunden"
+        },
+        {
+          "id": "9-3-einfache-maschinen",
+          "code": "9.3",
+          "grade": 9,
+          "title": "Einfache Maschinen und Werkzeuge",
+          "subtitle": "Kräfte, Reibung & Goldene Regel",
+          "hours": 12,
+          "topics": ["Kraft", "Reibung", "Kräfteaddition", "Goldene Regel", "einfache Maschinen"],
+          "route": "/mechanik/9-3-einfache-maschinen"
+        },
+        {
+          "id": "9-4-energie-treibt-alles-an",
+          "code": "9.4",
+          "grade": 9,
+          "title": "Energie treibt alles an",
+          "subtitle": "Energieformen, -erhaltung & Leistung",
+          "hours": 8,
+          "topics": ["Energieformen", "Energieumwandlung", "Energieerhaltung", "Leistung"],
+          "route": "/mechanik/9-4-energie-treibt-alles-an"
+        },
+        {
+          "id": "9-5-druck-und-auftrieb",
+          "code": "9.5",
+          "grade": 9,
+          "title": "Druck und Auftrieb",
+          "subtitle": "Druck, Dichte & Archimedisches Prinzip",
+          "hours": 10,
+          "topics": ["Druck", "Schweredruck", "Luftdruck", "Dichte", "Auftrieb", "Archimedisches Prinzip"],
+          "route": "/mechanik/9-5-druck-und-auftrieb"
+        }
+      ]
+    },
+    {
+      "id": "optik",
+      "title": "Optik",
+      "route": "/optik",
+      "tiles": [
+        {
+          "id": "6-8-sehen-und-gesehen-werden",
+          "code": "6.8",
+          "grade": 6,
+          "title": "Sehen und gesehen werden",
+          "subtitle": "Lichtausbreitung & Sichtbarkeit",
+          "hours": 6,
+          "topics": ["Lichtquellen/-empfänger", "Streuung", "Reflexion", "Transmission", "Absorption", "Schatten", "Lichtstrahlmodell"],
+          "route": "/optik/6-8-sehen-und-gesehen-werden"
+        },
+        {
+          "id": "6-9-licht-nutzbar-machen",
+          "code": "6.9",
+          "grade": 6,
+          "title": "Licht nutzbar machen",
+          "subtitle": "Lochkamera & Strahlungsarten",
+          "hours": 6,
+          "topics": ["Abbildungen", "Schattenbildung", "Absorption", "Strahlungsarten", "Sicherheitsaspekte"],
+          "route": "/optik/6-9-licht-nutzbar-machen"
+        },
+        {
+          "id": "7-1-spiegelbilder-im-strassenverkehr",
+          "code": "7.1",
+          "grade": 7,
+          "title": "Spiegelbilder im Straßenverkehr",
+          "subtitle": "Reflexion & Totalreflexion",
+          "hours": 6,
+          "topics": ["Reflexionsgesetz", "Planspiegel", "Totalreflexion", "Brechung"],
+          "route": "/optik/7-1-spiegelbilder-im-strassenverkehr"
+        },
+        {
+          "id": "7-2-die-welt-der-farben",
+          "code": "7.2",
+          "grade": 7,
+          "title": "Die Welt der Farben",
+          "subtitle": "Spektren, Absorption & Farbmischung",
+          "hours": 6,
+          "topics": ["Spektralzerlegung", "Absorption", "Farbmischung", "digitale Farbmodelle"],
+          "route": "/optik/7-2-die-welt-der-farben"
+        },
+        {
+          "id": "7-3-das-auge",
+          "code": "7.3",
+          "grade": 7,
+          "title": "Das Auge – ein optisches System",
+          "subtitle": "Sammellinsen & Bildentstehung",
+          "hours": 6,
+          "topics": ["Brechung", "Sammellinsen", "Bildentstehung am Auge"],
+          "route": "/optik/7-3-das-auge"
+        },
+        {
+          "id": "7-4-optische-instrumente",
+          "code": "7.4",
+          "grade": 7,
+          "title": "Mit optischen Instrumenten Unsichtbares sichtbar gemacht",
+          "subtitle": "Linsensysteme & Lichtleiter",
+          "hours": 4,
+          "topics": ["Bildentstehung bei optischen Instrumenten", "Lichtleiter", "Endoskop", "Teleskope"],
+          "route": "/optik/7-4-optische-instrumente"
+        }
+      ]
+    },
+    {
+      "id": "elektrizitaetslehre",
+      "title": "Elektrizitätslehre",
+      "route": "/elektrizitaetslehre",
+      "tiles": [
+        {
+          "id": "6-3-elektrische-geraete-im-alltag",
+          "code": "6.3",
+          "grade": 6,
+          "title": "Elektrische Geräte im Alltag",
+          "subtitle": "Stromkreise & Wirkungen",
+          "hours": 14,
+          "topics": ["Spannungsquellen", "Leiter/Nichtleiter", "verzweigte Stromkreise", "Wärme- & Magnetwirkung", "Gefahren"],
+          "route": "/elektrizitaetslehre/6-3-elektrische-geraete-im-alltag"
+        },
+        {
+          "id": "6-4-magnetismus",
+          "code": "6.4",
+          "grade": 6,
+          "title": "Magnetismus – interessant und hilfreich",
+          "subtitle": "Magnetkräfte & -felder",
+          "hours": 6,
+          "topics": ["anziehende/abstoßende Kräfte", "Feldskizzen", "Kompass"],
+          "route": "/elektrizitaetslehre/6-4-magnetismus"
+        },
+        {
+          "id": "9-6-blitze-und-gewitter",
+          "code": "9.6",
+          "grade": 9,
+          "title": "Blitze und Gewitter",
+          "subtitle": "Elektrostatik & Felder",
+          "hours": 8,
+          "topics": ["elektrische Ladungen", "elektrische Felder", "Spannung", "Ladungstransport", "Strom"],
+          "route": "/elektrizitaetslehre/9-6-blitze-und-gewitter"
+        },
+        {
+          "id": "10-1-sicherer-umgang-mit-elektrizitaet",
+          "code": "10.1",
+          "grade": 10,
+          "title": "Sicherer Umgang mit Elektrizität",
+          "subtitle": "Widerstand, Schaltungen & Leistung",
+          "hours": 14,
+          "topics": ["Widerstand", "Reihen-/Parallelschaltung", "Sicherungen", "elektrische Leistung/Energie"],
+          "route": "/elektrizitaetslehre/10-1-sicherer-umgang-mit-elektrizitaet"
+        },
+        {
+          "id": "10-4-versorgung-mit-elektrischer-energie",
+          "code": "10.4",
+          "grade": 10,
+          "title": "Versorgung mit elektrischer Energie",
+          "subtitle": "Induktion, Motor, Generator, Trafo, AC",
+          "hours": 14,
+          "topics": ["Elektromotor", "Generator", "Wechselspannung", "Transformator", "Energieübertragung", "Wirkungsgrad"],
+          "route": "/elektrizitaetslehre/10-4-versorgung-mit-elektrischer-energie"
+        },
+        {
+          "id": "10-5-energieversorgung-der-zukunft",
+          "code": "10.5",
+          "grade": 10,
+          "title": "Energieversorgung der Zukunft",
+          "subtitle": "Regenerative Energien & Nachhaltigkeit",
+          "hours": 5,
+          "topics": ["Kraftwerke", "regenerative Anlagen", "Energieübertragung/-entwertung", "Wirkungsgrad", "Nachhaltigkeit"],
+          "route": "/elektrizitaetslehre/10-5-energieversorgung-der-zukunft"
+        }
+      ]
+    }
+  ]
+}
+
