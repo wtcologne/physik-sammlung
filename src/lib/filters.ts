@@ -47,7 +47,7 @@ export function filterTiles(tiles: Tile[], filters: FilterOptions): Tile[] {
  * Get unique grades from tiles
  */
 export function getUniqueGrades(tiles: Tile[]): number[] {
-  const grades = new Set(tiles.map((tile) => tile.grade))
+  const grades = new Set(tiles.map((tile) => tile.grade).filter((grade): grade is number => grade !== null && grade !== undefined))
   return Array.from(grades).sort((a, b) => a - b)
 }
 

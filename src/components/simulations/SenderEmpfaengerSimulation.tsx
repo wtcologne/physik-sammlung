@@ -71,7 +71,6 @@ export function SenderEmpfaengerSimulation() {
 
       // Draw waves (only concentric circles emanating from sender)
       if (isPlaying) {
-        const wavelength = waveSpeed / frequency
         // Berechne wie viele Wellen der Sender bereits ausgesendet hat
         const totalWavesEmitted = Math.floor(time * frequency)
         const senderCfg = senderConfig[sender]
@@ -119,14 +118,12 @@ export function SenderEmpfaengerSimulation() {
         const distanceToEmpfaenger = empfaengerX - senderX
         
         // Prüfe ob irgendeine Welle gerade beim Empfänger ist
-        let empfaengerReached = false
         for (let i = 0; i <= totalWavesEmitted; i++) {
           const waveStartTime = i / frequency
           const waveAge = time - waveStartTime
           const radius = waveAge * waveSpeed
           
           if (Math.abs(radius - distanceToEmpfaenger) < 20) {
-            empfaengerReached = true
             const empfaengerCfg = empfaengerConfig[empfaenger]
             const pulseIntensity = 1 - Math.abs(radius - distanceToEmpfaenger) / 20
             
