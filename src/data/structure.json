@@ -14,10 +14,46 @@
           "code": "6.5",
           "grade": 6,
           "title": "Physik und Musik",
-          "subtitle": "Schwingungen & Schall",
+          "subtitle": "Wie lässt sich Musik physikalisch beschreiben?",
           "hours": 6,
           "topics": ["Schwingungen", "Schallausbreitung", "Tonhöhe", "Lautstärke", "Sender-Empfänger-Modell"],
-          "route": "/mechanik/6-5-physik-und-musik"
+          "route": "/mechanik/6-5-physik-und-musik",
+          "inhaltsfeld": "IF 3: Schall",
+          "inhaltlicheSchwerpunkte": [
+            {
+              "title": "Schwingungen und Schallwellen",
+              "items": ["Tonhöhe und Lautstärke", "Schallausbreitung"]
+            },
+            {
+              "title": "Schallquellen und Schallempfänger",
+              "items": ["Sender-Empfängermodell"]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF4",
+              "title": "Übertragung und Vernetzung",
+              "items": ["Fachbegriffe und Alltagssprache"]
+            },
+            {
+              "code": "E2",
+              "title": "Beobachtung und Wahrnehmung",
+              "items": ["Phänomene wahrnehmen und Veränderungen beschreiben"]
+            },
+            {
+              "code": "E5",
+              "title": "Auswertung und Schlussfolgerung",
+              "items": ["Interpretationen von Diagrammen"]
+            },
+            {
+              "code": "E6",
+              "title": "Modell und Realität"
+            }
+          ],
+          "vereinbarungen": {
+            "schwerpunktsetzung": ["Nur qualitative Betrachtung der Größen, keine Formeln"],
+            "vernetzung": ["Teilchenmodell (IF1)"]
+          }
         },
         {
           "id": "6-6-achtung-laerm",

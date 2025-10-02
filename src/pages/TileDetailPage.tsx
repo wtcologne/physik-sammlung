@@ -4,6 +4,8 @@ import { getCategoryColors } from '@/lib/colors'
 import { categoryPath } from '@/lib/routing'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { EmptyState } from '@/components/EmptyState'
+import { SchwingungSimulation } from '@/components/simulations/SchwingungSimulation'
+import { SenderEmpfaengerSimulation } from '@/components/simulations/SenderEmpfaengerSimulation'
 import { Clock, GraduationCap, BookOpen, ArrowLeft } from 'lucide-react'
 import { clsx } from 'clsx'
 
@@ -131,13 +133,132 @@ export function TileDetailPage() {
             </div>
           </div>
 
-          <div className="mt-8 p-6 bg-muted/30 rounded-lg border border-dashed border-border">
-            <h3 className="text-sm font-semibold text-foreground mb-2">
-              Simulation wird hier eingefügt
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              Dieser Bereich ist für zukünftige Physik-Simulationen reserviert.
-            </p>
+          {/* Inhaltsfeld */}
+          {tile.inhaltsfeld && (
+            <div className="mt-8">
+              <h2 className="text-lg font-semibold text-foreground mb-3">Inhaltsfeld</h2>
+              <div className={clsx("p-4 rounded-lg", colors.secondary)}>
+                <p className="font-medium text-foreground">{tile.inhaltsfeld}</p>
+              </div>
+            </div>
+          )}
+
+          {/* Inhaltliche Schwerpunkte */}
+          {tile.inhaltlicheSchwerpunkte && tile.inhaltlicheSchwerpunkte.length > 0 && (
+            <div className="mt-8">
+              <h2 className="text-lg font-semibold text-foreground mb-3">Inhaltliche Schwerpunkte</h2>
+              <div className="space-y-4">
+                {tile.inhaltlicheSchwerpunkte.map((schwerpunkt, index) => (
+                  <div key={index} className={clsx("p-4 rounded-lg", colors.secondary)}>
+                    <h3 className="font-semibold text-foreground mb-2">{schwerpunkt.title}</h3>
+                    <ul className="space-y-1">
+                      {schwerpunkt.items.map((item, idx) => (
+                        <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
+                          <span className={clsx("mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0", colors.primaryBg)} />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Kompetenzen */}
+          {tile.kompetenzen && tile.kompetenzen.length > 0 && (
+            <div className="mt-8">
+              <h2 className="text-lg font-semibold text-foreground mb-3">Schwerpunkte der Kompetenzentwicklung</h2>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {tile.kompetenzen.map((kompetenz, index) => (
+                  <div key={index} className="p-4 rounded-lg border border-border bg-card">
+                    <div className="flex items-start gap-3">
+                      <span className={clsx(
+                        "inline-flex items-center justify-center rounded-md px-2.5 py-1 text-xs font-bold flex-shrink-0",
+                        colors.primaryBg,
+                        "text-white"
+                      )}>
+                        {kompetenz.code}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-semibold text-sm text-foreground mb-1">{kompetenz.title}</h3>
+                        {kompetenz.items && kompetenz.items.length > 0 && (
+                          <ul className="space-y-1">
+                            {kompetenz.items.map((item, idx) => (
+                              <li key={idx} className="text-xs text-muted-foreground">
+                                • {item}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Vereinbarungen */}
+          {tile.vereinbarungen && (tile.vereinbarungen.schwerpunktsetzung || tile.vereinbarungen.vernetzung) && (
+            <div className="mt-8">
+              <h2 className="text-lg font-semibold text-foreground mb-3">Weitere Vereinbarungen</h2>
+              <div className="space-y-4">
+                {tile.vereinbarungen.schwerpunktsetzung && tile.vereinbarungen.schwerpunktsetzung.length > 0 && (
+                  <div className="p-4 rounded-lg border border-border bg-card">
+                    <h3 className="text-sm font-semibold text-foreground mb-2">… zur Schwerpunktsetzung</h3>
+                    <ul className="space-y-1">
+                      {tile.vereinbarungen.schwerpunktsetzung.map((item, idx) => (
+                        <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
+                          <span className="text-primary">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {tile.vereinbarungen.vernetzung && tile.vereinbarungen.vernetzung.length > 0 && (
+                  <div className="p-4 rounded-lg border border-border bg-card">
+                    <h3 className="text-sm font-semibold text-foreground mb-2">… zur Vernetzung</h3>
+                    <ul className="space-y-1">
+                      {tile.vereinbarungen.vernetzung.map((item, idx) => (
+                        <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
+                          <span className="text-primary">↔</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Simulation Section */}
+          <div className="mt-8">
+            {tile.id === '6-5-physik-und-musik' ? (
+              <div className="space-y-8">
+                <div>
+                  <h2 className="text-2xl font-bold text-foreground mb-4">
+                    🔬 Interaktive Simulationen
+                  </h2>
+                  <p className="text-muted-foreground mb-6">
+                    Experimentiere mit den Simulationen und beobachte die physikalischen Zusammenhänge!
+                  </p>
+                </div>
+                <SchwingungSimulation />
+                <SenderEmpfaengerSimulation />
+              </div>
+            ) : (
+              <div className="p-6 bg-muted/30 rounded-lg border border-dashed border-border">
+                <h3 className="text-sm font-semibold text-foreground mb-2">
+                  Simulation wird hier eingefügt
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Dieser Bereich ist für zukünftige Physik-Simulationen reserviert.
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>

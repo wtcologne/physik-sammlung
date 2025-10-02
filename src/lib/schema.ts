@@ -18,6 +18,21 @@ export const TileSchema = z.object({
   level: z.enum(['Sek I', 'Sek II']).optional(),
   stage: z.enum(['EF', 'Q1', 'Q2']).nullable().optional(),
   course: z.enum(['EF', 'GK', 'LK']).nullable().optional(),
+  // Lehrplan-spezifische Felder
+  inhaltsfeld: z.string().optional(),
+  kompetenzen: z.array(z.object({
+    code: z.string(),
+    title: z.string(),
+    items: z.array(z.string()).optional(),
+  })).optional(),
+  inhaltlicheSchwerpunkte: z.array(z.object({
+    title: z.string(),
+    items: z.array(z.string()),
+  })).optional(),
+  vereinbarungen: z.object({
+    schwerpunktsetzung: z.array(z.string()).optional(),
+    vernetzung: z.array(z.string()).optional(),
+  }).optional(),
 })
 
 export const CategorySchema = z.object({
