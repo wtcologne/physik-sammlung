@@ -1,0 +1,1311 @@
+{
+  "meta": {
+    "source_file": "g9_ph_silp_2020_01_31.pdf",
+    "pages": "7–22",
+    "generated_at": "2025-10-04",
+    "notes": "Extrahierte Unterrichtsvorhaben (6.1–10.5) mit Inhaltsfeldern, Kompetenzschwerpunkten und weiteren Vereinbarungen."
+  },
+  "vorhaben": [
+    {
+      "code": "6.1",
+      "title": "Wir messen Temperaturen",
+      "guiding_question": "Wie funktionieren unterschiedliche Thermometer?",
+      "time_hours": 10,
+      "inhaltsfelder": [
+        {
+          "code": "IF 1",
+          "title": "Temperatur und Wärme",
+          "schwerpunkte": [
+            "thermische Energie: Wärme, Temperatur und Temperaturmessung",
+            "Wirkungen von Wärme: Wärmeausdehnung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "E2",
+          "bereich": "Beobachtung und Wahrnehmung",
+          "punkte": [
+            "Beschreibung von Phänomenen"
+          ]
+        },
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Messen physikalischer Größen"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Modelle zur Erklärung"
+          ]
+        },
+        {
+          "code": "K1",
+          "bereich": "Dokumentation",
+          "punkte": [
+            "Protokolle nach vorgegebenem Schema",
+            "Anlegen von Tabellen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Einführung Modellbegriff",
+          "Erste Anleitung zum selbstständigen Experimentieren"
+        ],
+        "vernetzung": [
+          "Ausdifferenzierung des Teilchenmodells → Elektron-Atomrumpf & Kern-Hülle (IF 9, IF 10)"
+        ],
+        "synergien": [
+          "Beobachtungen/Beschreibungen/Protokolle ↔ Biologie (IF 1)"
+        ]
+      }
+    },
+    {
+      "code": "6.2",
+      "title": "Leben bei verschiedenen Temperaturen",
+      "guiding_question": "Wie beeinflusst die Temperatur Vorgänge in der Natur?",
+      "time_hours": 10,
+      "inhaltsfelder": [
+        {
+          "code": "IF 1",
+          "title": "Temperatur und Wärme",
+          "schwerpunkte": [
+            "thermische Energie: Wärme, Temperatur",
+            "Wärmetransport: Wärmemitführung, Wärmeleitung, Wärmestrahlung; Temperaturausgleich; Wärmedämmung",
+            "Wirkungen von Wärme: Veränderung von Aggregatzuständen und Wärmeausdehnung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF1",
+          "bereich": "Wiedergabe und Erläuterung",
+          "punkte": [
+            "Erläuterung von Phänomenen",
+            "Fachbegriffe gegeneinander abgrenzen"
+          ]
+        },
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "physikalische Erklärungen in Alltagssituationen"
+          ]
+        },
+        {
+          "code": "E2",
+          "bereich": "Beobachtung und Wahrnehmung",
+          "punkte": [
+            "Unterscheidung Beschreibung – Deutung"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Modelle zur Erklärung und Vorhersage"
+          ]
+        },
+        {
+          "code": "K1",
+          "bereich": "Dokumentation",
+          "punkte": [
+            "Tabellen und Diagramme nach Vorgabe"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Anwendungen/Phänomene der Wärme im Vordergrund; Energie nur am Rande",
+          "Argumentation mit dem Teilchenmodell",
+          "Selbstständiges Experimentieren"
+        ],
+        "vernetzung": [
+          "Aspekte Energieerhaltung und -entwertung → (IF 7)",
+          "Ausdifferenzierung Teilchenmodell → Elektron-Atomrumpf & Kern-Hülle (IF 9, IF 10)"
+        ],
+        "synergien": [
+          "Angepasstheit an Jahreszeiten/extreme Lebensräume ↔ Biologie (IF 1)",
+          "Teilchenmodell → Chemie (IF 1)"
+        ]
+      }
+    },
+    {
+      "code": "6.3",
+      "title": "Elektrische Geräte im Alltag",
+      "guiding_question": "Was geschieht in elektrischen Geräten?",
+      "time_hours": 14,
+      "inhaltsfelder": [
+        {
+          "code": "IF 2",
+          "title": "Elektrischer Strom und Magnetismus",
+          "schwerpunkte": [
+            "Stromkreise und Schaltungen: Spannungsquellen; Leiter/Nichtleiter; verzweigte Stromkreise; Elektronen in Leitern",
+            "Wirkungen des elektrischen Stroms: Wärme- und magnetische Wirkung; Gefahren durch Elektrizität"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "physikalische Konzepte auf Realsituationen anwenden"
+          ]
+        },
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Experimente planen und durchführen"
+          ]
+        },
+        {
+          "code": "K1",
+          "bereich": "Dokumentation",
+          "punkte": [
+            "Schaltskizzen erstellen, lesen und umsetzen"
+          ]
+        },
+        {
+          "code": "K4",
+          "bereich": "Argumentation",
+          "punkte": [
+            "Aussagen begründen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Makroebene, grundlegende Phänomene, Umgang mit Grundbegriffen"
+        ],
+        "synergien": [
+          "UND-/ODER-Schaltung → Informatik (Differenzierungsbereich)"
+        ]
+      }
+    },
+    {
+      "code": "6.4",
+      "title": "Magnetismus – interessant und hilfreich",
+      "guiding_question": "Warum zeigt uns der Kompass die Himmelsrichtung?",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 2",
+          "title": "Elektrischer Strom und Magnetismus",
+          "schwerpunkte": [
+            "magnetische Kräfte und Felder: anziehende/abstoßende Kräfte; Magnetpole; magnetische Felder; Feldlinienmodell; Magnetfeld der Erde",
+            "Magnetisierung: magnetisierbare Stoffe; Modell der Elementarmagnete"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "E3",
+          "bereich": "Vermutung und Hypothese",
+          "punkte": [
+            "Vermutungen äußern"
+          ]
+        },
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Systematisches Erkunden"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Modelle zur Veranschaulichung"
+          ]
+        },
+        {
+          "code": "K1",
+          "bereich": "Dokumentation",
+          "punkte": [
+            "Felder skizzieren"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Feld nur als Phänomen; erste Begegnung mit dem physikalischen Kraftbegriff"
+        ],
+        "vernetzung": [
+          "→ elektrisches Feld (IF 9)",
+          "→ Elektromotor und Generator (IF 11)"
+        ],
+        "synergien": [
+          "Erdkunde: Bestimmung der Himmelsrichtungen"
+        ]
+      }
+    },
+    {
+      "code": "6.5",
+      "title": "Physik und Musik",
+      "guiding_question": "Wie lässt sich Musik physikalisch beschreiben?",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 3",
+          "title": "Schall",
+          "schwerpunkte": [
+            "Schwingungen und Schallwellen: Tonhöhe und Lautstärke; Schallausbreitung",
+            "Schallquellen und -empfänger: Sender-Empfänger-Modell"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "Fachbegriffe und Alltagssprache"
+          ]
+        },
+        {
+          "code": "E2",
+          "bereich": "Beobachtung und Wahrnehmung",
+          "punkte": [
+            "Phänomene wahrnehmen; Veränderungen beschreiben"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Interpretation von Diagrammen"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Funktionsmodell zur Veranschaulichung"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Nur qualitative Betrachtung; keine Formeln"
+        ],
+        "vernetzung": [
+          "← Teilchenmodell (IF 1)"
+        ]
+      }
+    },
+    {
+      "code": "6.6",
+      "title": "Achtung Lärm!",
+      "guiding_question": "Wie schützt man sich vor Lärm?",
+      "time_hours": 4,
+      "inhaltsfelder": [
+        {
+          "code": "IF 3",
+          "title": "Schall",
+          "schwerpunkte": [
+            "Schwingungen und Schallwellen: Schallausbreitung; Absorption; Reflexion",
+            "Schallquellen und -empfänger: Lärm und Lärmschutz"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "Fachbegriffe und Alltagssprache"
+          ]
+        },
+        {
+          "code": "B1",
+          "bereich": "Fakten- und Situationsanalyse",
+          "punkte": [
+            "Fakten nennen und gegenüber Interessen abgrenzen"
+          ]
+        },
+        {
+          "code": "B3",
+          "bereich": "Abwägung und Entscheidung",
+          "punkte": [
+            "Erhaltung der eigenen Gesundheit"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "vernetzung": [
+          "← Teilchenmodell (IF 1)"
+        ]
+      }
+    },
+    {
+      "code": "6.7",
+      "title": "Schall in Natur und Technik",
+      "guiding_question": "Schall ist nicht nur zum Hören gut!",
+      "time_hours": 2,
+      "inhaltsfelder": [
+        {
+          "code": "IF 3",
+          "title": "Schall",
+          "schwerpunkte": [
+            "Schwingungen und Schallwellen: Tonhöhe und Lautstärke",
+            "Schallquellen und -empfänger: Ultraschall in Tierwelt, Medizin und Technik"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "Kenntnisse übertragen"
+          ]
+        },
+        {
+          "code": "E2",
+          "bereich": "Beobachtung und Wahrnehmung",
+          "punkte": [
+            "Phänomene aus Tierwelt und Technik beschreiben"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "6.8",
+      "title": "Sehen und gesehen werden – Sicher mit dem Fahrrad im Straßenverkehr!",
+      "guiding_question": "Sicher mit dem Fahrrad im Straßenverkehr!",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 4",
+          "title": "Licht",
+          "schwerpunkte": [
+            "Ausbreitung von Licht: Lichtquellen und Lichtempfänger; Modell des Lichtstrahls",
+            "Sichtbarkeit/Erscheinung: Streuung, Reflexion; Transmission; Absorption; Schattenbildung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF1",
+          "bereich": "Wiedergabe und Erläuterung",
+          "punkte": [
+            "Differenzierte Beschreibung von Beobachtungen"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Idealisierung durch das Modell Lichtstrahl"
+          ]
+        },
+        {
+          "code": "K1",
+          "bereich": "Dokumentation",
+          "punkte": [
+            "Erstellung präziser Zeichnungen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Reflexion nur als Phänomen"
+        ],
+        "vernetzung": [
+          "← Schall (IF 3)",
+          "Lichtstrahlmodell → Abbildungen mit optischen Geräten (IF 5)"
+        ]
+      }
+    },
+    {
+      "code": "6.9",
+      "title": "Licht nutzbar machen",
+      "guiding_question": "Wie entsteht ein Bild in einer (Loch-)Kamera? Unterschiedliche Strahlungsarten – nützlich, aber auch gefährlich!",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 4",
+          "title": "Licht",
+          "schwerpunkte": [
+            "Ausbreitung von Licht: Abbildungen",
+            "Sichtbarkeit/Erscheinung: Schattenbildung; Absorption"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF3",
+          "bereich": "Ordnung und Systematisierung",
+          "punkte": [
+            "Bilder der Lochkamera verändern",
+            "Strahlungsarten vergleichen"
+          ]
+        },
+        {
+          "code": "K1",
+          "bereich": "Dokumentation",
+          "punkte": [
+            "Erstellen präziser Zeichnungen"
+          ]
+        },
+        {
+          "code": "B1",
+          "bereich": "Fakten- und Situationsanalyse",
+          "punkte": [
+            "Gefahren durch Strahlung",
+            "Sichtbarkeit verbessern"
+          ]
+        },
+        {
+          "code": "B3",
+          "bereich": "Abwägung und Entscheidung",
+          "punkte": [
+            "Auswahl geeigneter Schutzmaßnahmen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Nur einfache Abbildungen"
+        ],
+        "vernetzung": [
+          "Strahlengänge → Abbildungen mit optischen Geräten (IF 5)"
+        ]
+      }
+    },
+    {
+      "code": "7.1",
+      "title": "Spiegelbilder im Straßenverkehr",
+      "guiding_question": "Wie entsteht ein Spiegelbild?",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 5",
+          "title": "Optische Instrumente",
+          "schwerpunkte": [
+            "Spiegelungen: Reflexionsgesetz; Bildentstehung am Planspiegel",
+            "Lichtbrechung: Totalreflexion; Brechung an Grenzflächen"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF1",
+          "bereich": "Wiedergabe und Erläuterung",
+          "punkte": [
+            "Mathematische Formulierung eines physikalischen Zusammenhangs"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Idealisierung (Lichtstrahlmodell)"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Vornehmlich Sicherheitsaspekte"
+        ],
+        "vernetzung": [
+          "← IF 4 (Ausbreitung von Licht, Abbildungen, Reflexion)",
+          "Planspiegel → Spiegelteleskope (IF 6)"
+        ]
+      }
+    },
+    {
+      "code": "7.2",
+      "title": "Die Welt der Farben",
+      "guiding_question": "Farben! Wie kommt es dazu?",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 5",
+          "title": "Optische Instrumente",
+          "schwerpunkte": [
+            "Lichtbrechung: Brechung an Grenzflächen",
+            "Licht und Farben: Spektralzerlegung; Absorption; Farbmischung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF3",
+          "bereich": "Ordnung und Systematisierung",
+          "punkte": [
+            "digitale Farbmodelle"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Parameter bei Reflexion und Brechung"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "digitale Farbmodelle"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Erkunden von Farbmodellen am PC"
+        ],
+        "vernetzung": [
+          "← IR/sichtbares/UV, Absorption, Lichtenergie (IF 4)",
+          "Spektren → Analyse von Sternenlicht (IF 6)",
+          "Lichtenergie → Photovoltaik (IF 11)"
+        ],
+        "synergien": [
+          "Schalenmodell ← Chemie (IF 1)",
+          "Farbensehen → Biologie (IF 7)"
+        ]
+      }
+    },
+    {
+      "code": "7.3",
+      "title": "Das Auge – ein optisches System",
+      "guiding_question": "Wie entsteht auf der Netzhaut ein scharfes Bild?",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 5",
+          "title": "Optische Instrumente",
+          "schwerpunkte": [
+            "Lichtbrechung: Brechung an Grenzflächen; Bildentstehung bei Sammellinsen und Auge"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Bildentstehung bei Sammellinsen"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Parametervariation bei Linsensystemen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Bildentstehung; Einsatz digitaler Werkzeuge (z. B. Geometriesoftware)"
+        ],
+        "vernetzung": [
+          "Linsen/Lochblende ← Strahlenmodell des Lichts, Abbildungen (IF 4)"
+        ],
+        "synergien": [
+          "Auge → Biologie (IF 7)"
+        ]
+      }
+    },
+    {
+      "code": "7.4",
+      "title": "Mit optischen Instrumenten Unsichtbares sichtbar gemacht",
+      "guiding_question": "Wie können wir Zellen und Planeten sichtbar machen?",
+      "time_hours": 4,
+      "inhaltsfelder": [
+        {
+          "code": "IF 5",
+          "title": "Optische Instrumente",
+          "schwerpunkte": [
+            "Lichtbrechung: Bildentstehung bei optischen Instrumenten; Lichtleiter"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF2",
+          "bereich": "Auswahl und Anwendung",
+          "punkte": [
+            "Brechung",
+            "Bildentstehung"
+          ]
+        },
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "Einfache optische Systeme; Endoskop und Glasfaserkabel"
+          ]
+        },
+        {
+          "code": "K3",
+          "bereich": "Präsentation",
+          "punkte": [
+            "arbeitsteilige Präsentationen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Erstellung von Präsentationen zu physikalischen Sachverhalten"
+        ],
+        "vernetzung": [
+          "Teleskope → Beobachtung von Himmelskörpern (IF 6)"
+        ],
+        "synergien": [
+          "Mikroskopie von Zellen ↔ Biologie (IF 1, IF 2, IF 6)"
+        ]
+      }
+    },
+    {
+      "code": "7.5",
+      "title": "Licht und Schatten im Sonnensystem",
+      "guiding_question": "Wie entstehen Mondphasen, Finsternisse und Jahreszeiten?",
+      "time_hours": 5,
+      "inhaltsfelder": [
+        {
+          "code": "IF 6",
+          "title": "Sterne und Weltall",
+          "schwerpunkte": [
+            "Sonnensystem: Mondphasen; Mond- und Sonnenfinsternisse; Jahreszeiten"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "E1",
+          "bereich": "Problem und Fragestellung",
+          "punkte": [
+            "naturwissenschaftlich beantwortbare Fragestellungen"
+          ]
+        },
+        {
+          "code": "E2",
+          "bereich": "Beobachtung und Wahrnehmung",
+          "punkte": [
+            "Differenzierte Beschreibung von Beobachtungen"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Phänomene mithilfe von Modellen erklären"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Naturwissenschaftliche Fragestellungen, ggf. auch historisch"
+        ],
+        "vernetzung": [
+          "← Schatten (IF 4)"
+        ],
+        "synergien": [
+          "Schrägstellung der Erdachse/Jahreszeiten ↔ Erdkunde (IF 5)"
+        ]
+      }
+    },
+    {
+      "code": "9.1",
+      "title": "Objekte am Himmel",
+      "guiding_question": "Was kennzeichnet die verschiedenen Himmelsobjekte?",
+      "time_hours": 10,
+      "inhaltsfelder": [
+        {
+          "code": "IF 6",
+          "title": "Sterne und Weltall",
+          "schwerpunkte": [
+            "Sonnensystem: Planeten",
+            "Universum: Himmelsobjekte; Sternentwicklung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF3",
+          "bereich": "Ordnung und Systematisierung",
+          "punkte": [
+            "Klassifizierung von Himmelsobjekten"
+          ]
+        },
+        {
+          "code": "E7",
+          "bereich": "Naturwissenschaftliches Denken und Arbeiten",
+          "punkte": [
+            "gesellschaftliche Auswirkungen"
+          ]
+        },
+        {
+          "code": "B2",
+          "bereich": "Bewertungskriterien und Handlungsoptionen",
+          "punkte": [
+            "Wissenschaftliche und andere Weltvorstellungen vergleichen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "zusatz": [
+          "Gesellschaftliche Relevanz (Raumfahrtprojekte)"
+        ],
+        "vernetzung": [
+          "← Fernrohr (IF 5); Spektralzerlegung (IF 5)"
+        ]
+      }
+    },
+    {
+      "code": "9.2",
+      "title": "100 m in 10 Sekunden",
+      "guiding_question": "Wie schnell bin ich?",
+      "time_hours": 6,
+      "inhaltsfelder": [
+        {
+          "code": "IF 7",
+          "title": "Bewegung, Kraft und Energie",
+          "schwerpunkte": [
+            "Bewegungen: Geschwindigkeit; Beschleunigung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF1",
+          "bereich": "Wiedergabe und Erläuterung",
+          "punkte": [
+            "Bewegungen analysieren"
+          ]
+        },
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Messwerte aufnehmen",
+            "Systematische Untersuchung von Zusammenhängen"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Diagramme erstellen",
+            "Kurvenverläufe interpretieren"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Einführung Vektorpfeile; reale Messdaten in Diagrammen"
+        ],
+        "vernetzung": [
+          "Vektorielle Größen → Kraft (IF 7)"
+        ],
+        "synergien": [
+          "Mathematik: Funktionale Zusammenhänge"
+        ]
+      }
+    },
+    {
+      "code": "9.3",
+      "title": "Einfache Maschinen und Werkzeuge: Kleine Kräfte, lange Wege",
+      "guiding_question": "Wie kann ich mit kleinen Kräften eine große Wirkung erzielen?",
+      "time_hours": 12,
+      "inhaltsfelder": [
+        {
+          "code": "IF 7",
+          "title": "Bewegung, Kraft und Energie",
+          "schwerpunkte": [
+            "Kraft: Bewegungsänderung; Verformung; Wechselwirkungsprinzip; Gewichtskraft und Masse; Kräfteaddition; Reibung",
+            "Goldene Regel der Mechanik: einfache Maschinen"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF3",
+          "bereich": "Ordnung und Systematisierung",
+          "punkte": [
+            "Kraft und Gegenkraft; Goldene Regel"
+          ]
+        },
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Messwerte aufnehmen",
+            "Systematische Untersuchung von Variablenbeziehungen"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Ableiten von Gesetzmäßigkeiten (Je-desto-Beziehungen)"
+          ]
+        },
+        {
+          "code": "B1",
+          "bereich": "Fakten- und Situationsanalyse",
+          "punkte": [
+            "Einsatzmöglichkeiten von Maschinen; Barrierefreiheit"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Experimentelles Arbeiten; Anforderungen an Messgeräte"
+        ],
+        "vernetzung": [
+          "Vektorielle Größen, Kraft ← Geschwindigkeit (IF 7)"
+        ],
+        "synergien": [
+          "Biologie: Bewegungsapparat",
+          "Mathematik: lineare/proportionale Funktionen"
+        ]
+      }
+    },
+    {
+      "code": "9.4",
+      "title": "Energie treibt alles an",
+      "guiding_question": "Was ist Energie? Wie kann ich schwere Dinge heben?",
+      "time_hours": 8,
+      "inhaltsfelder": [
+        {
+          "code": "IF 7",
+          "title": "Bewegung, Kraft und Energie",
+          "schwerpunkte": [
+            "Energieformen: Lage-, Bewegungs-, Spannenergie",
+            "Energieumwandlungen: Energieerhaltung; Leistung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF1",
+          "bereich": "Wiedergabe und Erläuterung",
+          "punkte": [
+            "Energieumwandlungsketten"
+          ]
+        },
+        {
+          "code": "UF3",
+          "bereich": "Ordnung und Systematisierung",
+          "punkte": [
+            "Energieerhaltung"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Energieverluste durch Reibung; Energieerhaltung hier; Energiebilanzierung"
+        ],
+        "vernetzung": [
+          "Energieumwandlungen/Energieerhaltung ← Goldene Regel (IF 7)",
+          "← Energieentwertung (IF 1, IF 2)"
+        ],
+        "synergien": [
+          "Biologie (Energieumwandlungen)",
+          "Chemie (Energie/Erhaltung)"
+        ]
+      }
+    },
+    {
+      "code": "9.5",
+      "title": "Druck und Auftrieb",
+      "guiding_question": "Was ist Druck?",
+      "time_hours": 10,
+      "inhaltsfelder": [
+        {
+          "code": "IF 8",
+          "title": "Druck und Auftrieb",
+          "schwerpunkte": [
+            "Druck in Flüssigkeiten und Gasen: Druck als Kraft pro Fläche; Schweredruck; Luftdruck (Atmosphäre); Dichte; Auftrieb; Archimedisches Prinzip",
+            "Druckmessung: Druck und Kraftwirkungen"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF1",
+          "bereich": "Wiedergabe und Erläuterung",
+          "punkte": [
+            "Druck und Kraftwirkungen"
+          ]
+        },
+        {
+          "code": "UF2",
+          "bereich": "Auswahl und Anwendung",
+          "punkte": [
+            "Auftriebskraft"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Schweredruck und Luftdruck bestimmen"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Druck und Dichte im Teilchenmodell; Auftrieb im mathematischen Modell"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Anwendung experimentell gewonnener Erkenntnisse"
+        ],
+        "vernetzung": [
+          "Druck ← Teilchenmodell (IF 1)",
+          "Auftrieb ← Kräfte (IF 7)"
+        ],
+        "synergien": [
+          "Dichte ← Chemie (IF 1)"
+        ]
+      }
+    },
+    {
+      "code": "9.6",
+      "title": "Blitze und Gewitter",
+      "guiding_question": "Warum schlägt der Blitz ein?",
+      "time_hours": 8,
+      "inhaltsfelder": [
+        {
+          "code": "IF 9",
+          "title": "Elektrizität",
+          "schwerpunkte": [
+            "Elektrostatik: elektrische Ladungen; elektrische Felder; Spannung",
+            "elektrische Stromkreise: Elektronen-Atomrumpf-Modell; Ladungstransport; elektrischer Strom"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF1",
+          "bereich": "Wiedergabe und Erläuterung",
+          "punkte": [
+            "korrekter Gebrauch von Ladung/Spannung/Stromstärke; Unterscheidung Einheit und Größe"
+          ]
+        },
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Umgang mit Amperemeter und Voltmeter"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Schlussfolgerungen aus Beobachtungen"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Elektronen-Atomrumpf-Modell; Feldlinienmodell; Schaltpläne"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Anwendung des Elektronen-Atomrumpf-Modells"
+        ],
+        "vernetzung": [
+          "← Elektrische Stromkreise (IF 2)"
+        ],
+        "synergien": [
+          "Kern-Hülle-Modell ← Chemie (IF 5)"
+        ]
+      }
+    },
+    {
+      "code": "10.1",
+      "title": "Sicherer Umgang mit Elektrizität",
+      "guiding_question": "Wann ist Strom gefährlich?",
+      "time_hours": 14,
+      "inhaltsfelder": [
+        {
+          "code": "IF 9",
+          "title": "Elektrizität",
+          "schwerpunkte": [
+            "elektrische Stromkreise: elektrischer Widerstand; Reihen- und Parallelschaltung; Sicherungsvorrichtungen",
+            "elektrische Energie und Leistung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "Anwendung auf Alltagssituationen"
+          ]
+        },
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Systematische Untersuchung von Variablenbeziehungen"
+          ]
+        },
+        {
+          "code": "E5",
+          "bereich": "Auswertung und Schlussfolgerung",
+          "punkte": [
+            "Mathematisierung (proportionale Zusammenhänge, grafisch & rechnerisch)"
+          ]
+        },
+        {
+          "code": "E6",
+          "bereich": "Modell und Realität",
+          "punkte": [
+            "Analogiemodelle und ihre Grenzen"
+          ]
+        },
+        {
+          "code": "B3",
+          "bereich": "Abwägung und Entscheidung",
+          "punkte": [
+            "Sicherheit im Umgang mit Elektrizität"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Analogiemodelle (z. B. Wassermodell); Mathematisierung; keine komplexen Ersatzschaltungen"
+        ],
+        "vernetzung": [
+          "← Stromwirkungen (IF 2)"
+        ],
+        "synergien": [
+          "Mathematik: proportionale Zuordnungen; Gleichungsumformungen"
+        ]
+      }
+    },
+    {
+      "code": "10.2",
+      "title": "Gefahren und Nutzen ionisierender Strahlung",
+      "guiding_question": "Ist ionisierende Strahlung gefährlich oder nützlich?",
+      "time_hours": 15,
+      "inhaltsfelder": [
+        {
+          "code": "IF 10",
+          "title": "Ionisierende Strahlung und Kernenergie",
+          "schwerpunkte": [
+            "Atomaufbau und ionisierende Strahlung: Alpha-, Beta-, Gamma-Strahlung; radioaktiver Zerfall; Halbwertszeit; Röntgenstrahlung",
+            "Wechselwirkung mit Materie: Nachweismethoden; Absorption; biologische Wirkungen; medizinische Anwendungen; Schutzmaßnahmen"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "biologische Wirkungen & medizinische Anwendungen"
+          ]
+        },
+        {
+          "code": "E1",
+          "bereich": "Problem und Fragestellung",
+          "punkte": [
+            "Auswirkungen auf Politik und Gesellschaft"
+          ]
+        },
+        {
+          "code": "E7",
+          "bereich": "Naturwissenschaftliches Denken und Arbeiten",
+          "punkte": [
+            "Nachweisen und Modellieren"
+          ]
+        },
+        {
+          "code": "K2",
+          "bereich": "Informationsverarbeitung",
+          "punkte": [
+            "Filterung wichtiger Aspekte"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Quellenkritische Recherche; Präsentation"
+        ],
+        "vernetzung": [
+          "Atommodelle ← Chemie (IF 5)",
+          "Radioaktiver Zerfall ← Mathematik (Exponentialfunktion)",
+          "→ Biologie (SII: Mutationen, 14C)"
+        ]
+      }
+    },
+    {
+      "code": "10.3",
+      "title": "Energie aus Atomkernen",
+      "guiding_question": "Ist die Kernenergie beherrschbar?",
+      "time_hours": 10,
+      "inhaltsfelder": [
+        {
+          "code": "IF 10",
+          "title": "Ionisierende Strahlung und Kernenergie",
+          "schwerpunkte": [
+            "Kernenergie: Kernspaltung; Kernfusion; Kernkraftwerke; Endlagerung"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "K2",
+          "bereich": "Informationsverarbeitung",
+          "punkte": [
+            "Seriosität von Quellen"
+          ]
+        },
+        {
+          "code": "K4",
+          "bereich": "Argumentation",
+          "punkte": [
+            "eigenen Standpunkt schlüssig vertreten"
+          ]
+        },
+        {
+          "code": "B1",
+          "bereich": "Fakten- und Situationsanalyse",
+          "punkte": [
+            "relevante Informationen identifizieren"
+          ]
+        },
+        {
+          "code": "B3",
+          "bereich": "Abwägung und Entscheidung",
+          "punkte": [
+            "Meinungsbildung"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Meinungsbildung, Quellenbeurteilung, Urteilsfähigkeit"
+        ],
+        "vernetzung": [
+          "← Zerfallsgleichung aus 10.1",
+          "→ Vergleich unterschiedlicher Energieanlagen (IF 11)"
+        ]
+      }
+    },
+    {
+      "code": "10.4",
+      "title": "Versorgung mit elektrischer Energie",
+      "guiding_question": "Wie erfolgt die Übertragung der elektrischen Energie vom Kraftwerk bis zum Haushalt?",
+      "time_hours": 14,
+      "inhaltsfelder": [
+        {
+          "code": "IF 11",
+          "title": "Energieversorgung",
+          "schwerpunkte": [
+            "Induktion & Elektromagnetismus: Elektromotor; Generator; Wechselspannung; Transformator",
+            "Bereitstellung & Nutzung: Energieübertragung; Energieentwertung; Wirkungsgrad"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "E4",
+          "bereich": "Untersuchung und Experiment",
+          "punkte": [
+            "Planung von Experimenten mit >2 Variablen; Variablenkontrolle"
+          ]
+        },
+        {
+          "code": "B2",
+          "bereich": "Bewertungskriterien und Handlungsoptionen",
+          "punkte": [
+            "Kaufentscheidungen treffen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Verantwortlicher Umgang mit Energie"
+        ],
+        "vernetzung": [
+          "← Lorentzkraft, Energiewandlung (IF 10)",
+          "← mechanische Leistung & Energie (IF 7)",
+          "← elektrische Leistung & Energie (IF 9)"
+        ]
+      }
+    },
+    {
+      "code": "10.5",
+      "title": "Energieversorgung der Zukunft",
+      "guiding_question": "Wie können regenerative Energien zur Sicherung der Energieversorgung beitragen?",
+      "time_hours": 5,
+      "inhaltsfelder": [
+        {
+          "code": "IF 11",
+          "title": "Energieversorgung",
+          "schwerpunkte": [
+            "Bereitstellung & Nutzung: Kraftwerke; Regenerative Energieanlagen; Energieübertragung; Energieentwertung; Wirkungsgrad; Nachhaltigkeit"
+          ]
+        }
+      ],
+      "kompetenzen": [
+        {
+          "code": "UF4",
+          "bereich": "Übertragung und Vernetzung",
+          "punkte": [
+            "Beiträge verschiedener Disziplinen zur Problemlösung"
+          ]
+        },
+        {
+          "code": "K2",
+          "bereich": "Informationsverarbeitung",
+          "punkte": [
+            "Quellenanalyse"
+          ]
+        },
+        {
+          "code": "B3",
+          "bereich": "Abwägung und Entscheidung",
+          "punkte": [
+            "Filterung relevanter Daten"
+          ]
+        },
+        {
+          "code": "B4",
+          "bereich": "Stellungnahme und Reflexion",
+          "punkte": [
+            "Stellung beziehen"
+          ]
+        }
+      ],
+      "weitere_vereinbarungen": {
+        "schwerpunktsetzung": [
+          "Verantwortlicher Umgang mit Energie; Nachhaltigkeit"
+        ],
+        "vernetzung": [
+          "→ Kernkraftwerk, Energiewandlung (IF 10)"
+        ],
+        "synergien": [
+          "Chemie (Energie aus Reaktionen)",
+          "Erdkunde (Energiediskussion)",
+          "Wirtschaft-Politik (Energiepolitik)"
+        ]
+      }
+    }
+  ]
+}

@@ -17,7 +17,7 @@ interface FilterBarProps {
 export function FilterBar({
   selectedGrades,
   onGradesChange,
-  availableGrades = [6, 7, 9, 10],
+  availableGrades = [6, 7, 8, 9, 10],
   selectedLevels,
   onLevelsChange,
   selectedCourses,
@@ -65,12 +65,13 @@ export function FilterBar({
         <div className="flex flex-wrap gap-2">
           {(['Sek I', 'Sek II'] as LevelType[]).map((level) => {
             const isSelected = selectedLevels.includes(level)
+            const levelInfo = level === 'Sek I' ? 'Klassen 6-10' : 'Oberstufe'
             return (
               <button
                 key={level}
                 onClick={() => toggleLevel(level)}
                 className={clsx(
-                  'inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors',
+                  'inline-flex flex-col items-center justify-center rounded-md px-4 py-3 text-sm font-medium transition-colors min-w-[80px]',
                   'focus:outline-none focus:ring-2 focus:ring-offset-2',
                   categoryId ? colors.ring : 'focus:ring-ring',
                   isSelected
@@ -80,7 +81,8 @@ export function FilterBar({
                 aria-pressed={isSelected}
                 aria-label={`${level}${isSelected ? ' ausgewählt' : ''}`}
               >
-                {level}
+                <span className="font-semibold">{level}</span>
+                <span className="text-xs opacity-75">{levelInfo}</span>
               </button>
             )
           })}
@@ -100,7 +102,7 @@ export function FilterBar({
                 key={grade}
                 onClick={() => toggleGrade(grade)}
                 className={clsx(
-                  'inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors',
+                  'inline-flex items-center justify-center rounded-md px-3 py-2 text-sm font-medium transition-colors min-w-[60px]',
                   'focus:outline-none focus:ring-2 focus:ring-offset-2',
                   categoryId ? colors.ring : 'focus:ring-ring',
                   isSelected
@@ -110,7 +112,7 @@ export function FilterBar({
                 aria-pressed={isSelected}
                 aria-label={`Klasse ${grade}${isSelected ? ' ausgewählt' : ''}`}
               >
-                Klasse {grade}
+                {grade}
               </button>
             )
           })}
@@ -125,12 +127,13 @@ export function FilterBar({
         <div className="flex flex-wrap gap-2">
           {(['EF', 'GK', 'LK'] as CourseType[]).map((course) => {
             const isSelected = selectedCourses.includes(course)
+            const courseInfo = course === 'EF' ? 'Einführungsphase' : course === 'GK' ? 'Grundkurs' : 'Leistungskurs'
             return (
               <button
                 key={course}
                 onClick={() => toggleCourse(course)}
                 className={clsx(
-                  'inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors',
+                  'inline-flex flex-col items-center justify-center rounded-md px-3 py-2 text-sm font-medium transition-colors min-w-[60px]',
                   'focus:outline-none focus:ring-2 focus:ring-offset-2',
                   categoryId ? colors.ring : 'focus:ring-ring',
                   isSelected
@@ -140,7 +143,8 @@ export function FilterBar({
                 aria-pressed={isSelected}
                 aria-label={`${course}${isSelected ? ' ausgewählt' : ''}`}
               >
-                {course}
+                <span className="font-semibold">{course}</span>
+                <span className="text-xs opacity-75">{courseInfo}</span>
               </button>
             )
           })}

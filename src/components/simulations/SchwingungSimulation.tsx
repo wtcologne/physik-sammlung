@@ -13,26 +13,38 @@ export function SchwingungSimulation() {
   const [amplitude, setAmplitude] = useState(0.5)
   const [isAudioReady, setIsAudioReady] = useState(false)
 
-  // Initialize Tone.js synth
+  // Initialize Tone.js synth (lazy initialization)
   useEffect(() => {
-    synthRef.current = new Tone.Synth({
-      oscillator: { type: 'sine' },
-      envelope: {
-        attack: 0.005,
-        decay: 0.1,
-        sustain: 0.9,
-        release: 0.1,
-      },
-    }).toDestination()
-
-    synthRef.current.volume.value = -10
-
+    // Don't initialize audio until user interaction
     return () => {
       if (synthRef.current) {
         synthRef.current.dispose()
       }
     }
   }, [])
+
+  // Initialize audio on first user interaction
+  const initializeAudio = async () => {
+    if (!isAudioReady && !synthRef.current) {
+      try {
+        await Tone.start()
+        synthRef.current = new Tone.Synth({
+          oscillator: { type: 'sine' },
+          envelope: {
+            attack: 0.005,
+            decay: 0.1,
+            sustain: 0.9,
+            release: 0.1,
+          },
+        }).toDestination()
+
+        synthRef.current.volume.value = -10
+        setIsAudioReady(true)
+      } catch (error) {
+        console.warn('Audio initialization failed:', error)
+      }
+    }
+  }
 
   // Animation loop for canvas
   useEffect(() => {
@@ -108,10 +120,8 @@ export function SchwingungSimulation() {
   }, [frequency, amplitude, isPlaying])
 
   const handlePlayPause = async () => {
-    if (!isAudioReady) {
-      await Tone.start()
-      setIsAudioReady(true)
-    }
+    // Initialize audio on first user interaction
+    await initializeAudio()
 
     if (isPlaying) {
       synthRef.current?.triggerRelease()
@@ -122,9 +132,11 @@ export function SchwingungSimulation() {
     }
   }
 
-  const handleFrequencyChange = (value: number) => {
+  const handleFrequencyChange = async (value: number) => {
     setFrequency(value)
     if (isPlaying && synthRef.current) {
+      // Ensure audio is initialized before changing frequency
+      await initializeAudio()
       synthRef.current.frequency.rampTo(value, 0.1)
     }
   }

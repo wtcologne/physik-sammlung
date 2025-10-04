@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "source": "https://phyphox.org/experiments/",
+    "generated_at": "2025-10-04T20:04:12.062162Z",
+    "categories": [
+      "Mechanik",
+      "Optik",
+      "Elektrizitätslehre"
+    ],
+    "notes": "Nur Experimente, die klar einem der drei Fachgebiete zugeordnet werden können."
+  },
+  "experiments": [
+    {
+      "kategorie": "Mechanik",
+      "title": "Centrifugal acceleration",
+      "url": "https://phyphox.org/experiment/centrifugal-acceleration/",
+      "hardware": [
+        "Accelerometer",
+        "Gyroscope"
+      ],
+      "short_description": "Relation zwischen Winkelgeschwindigkeit und Zentripetal-/Zentrifugalbeschleunigung (z. B. im Salatschleuder-Setup).",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Free fall (acoustic detection)",
+      "url": "https://phyphox.org/experiment/free-fall-2/",
+      "hardware": [
+        "Microphone"
+      ],
+      "short_description": "Freier Fall mit akustischer Zeitmessung per Mikrofon und akustischer Stoppuhr.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": false,
+        "leifi": true
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Free fall (magnetic detection)",
+      "url": "https://phyphox.org/experiment/free-fall/",
+      "hardware": [
+        "Magnetometer"
+      ],
+      "short_description": "Freier Fall: Smartphone an Magnet-Array vorbeifallen lassen und das Magnetfeld zur Bestimmung der linearen Beschleunigung auswerten.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": true,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Linear acceleration on an air track",
+      "url": "https://phyphox.org/experiment/linear-acceleration-on-an-air-track/",
+      "hardware": [
+        "Magnetometer"
+      ],
+      "short_description": "Smartphone auf der Luftkissenbahn – Beschleunigung mittels Magnet-Array über das Magnetfeld erforschen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": true,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Pendulum",
+      "url": "https://phyphox.org/experiment/pendulum/",
+      "hardware": [
+        "Gyroscope"
+      ],
+      "short_description": "Fadenpendel: Schwingungsfrequenz messen und die Erdbeschleunigung bestimmen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": true,
+        "leifi": true
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Spring",
+      "url": "https://phyphox.org/experiment/spring/",
+      "hardware": [
+        "Accelerometer"
+      ],
+      "short_description": "Federpendel: Schwingungsfrequenz einer Masse-Feder-System bestimmen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": true,
+        "leifi": true
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Pressure in a bag",
+      "url": "https://phyphox.org/experiment/pressure-in-a-bag/",
+      "hardware": [
+        "Pressure sensor"
+      ],
+      "short_description": "Druckänderungen in einem aufgeblasenen Beutel bei aufgelegten Gewichten messen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": true,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Roll",
+      "url": "https://phyphox.org/experiment/roll/",
+      "hardware": [
+        "Gyroscope"
+      ],
+      "short_description": "Smartphone in Papierrolle: Drehgeschwindigkeit per Gyroskop bestimmen (Hinweis: nicht mehr auf iOS verfügbar).",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": true,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Elevator",
+      "url": "https://phyphox.org/experiment/elevator/",
+      "hardware": [
+        "Pressure sensor"
+      ],
+      "short_description": "Fahrstuhl: Geschwindigkeit und zurückgelegte Höhe über den Luftdruck ermitteln.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Doppler effect",
+      "url": "https://phyphox.org/experiment/doppler-effect/",
+      "hardware": [
+        "Microphone"
+      ],
+      "short_description": "Dopplereffekt: Frequenzverschiebung mit dem Mikrofon bestimmen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Sonar",
+      "url": "https://phyphox.org/experiment/sonar/",
+      "hardware": [
+        "Microphone",
+        "Speaker"
+      ],
+      "short_description": "Smartphone als Sonar: Distanzen messen oder Schallgeschwindigkeit bestimmen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Mechanik",
+      "title": "Speed of sound",
+      "url": "https://phyphox.org/experiment/speed-of-sound/",
+      "hardware": [
+        "Microphone"
+      ],
+      "short_description": "Schallgeschwindigkeit mit zwei Smartphones und Maßband über die akustische Stoppuhr bestimmen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": true,
+        "leifi": true
+      }
+    },
+    {
+      "kategorie": "Optik",
+      "title": "Optical stopwatch",
+      "url": "https://phyphox.org/experiment/optical-stopwatch/",
+      "hardware": [
+        "Light sensor"
+      ],
+      "short_description": "Zeitmessung über Helligkeitsschwellen (hell/dunkel) mit dem Lichtsensor.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Optik",
+      "title": "Light",
+      "url": "https://phyphox.org/experiment/light/",
+      "hardware": [
+        "Light sensor"
+      ],
+      "short_description": "Rohdaten des Umgebungslichtsensors auslesen (Hinweis: nicht auf allen Geräten verfügbar).",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Optik",
+      "title": "Proximity stopwatch",
+      "url": "https://phyphox.org/experiment/proximity-stopwatch/",
+      "hardware": [
+        "Proximity sensor"
+      ],
+      "short_description": "Zeitmessung über Annäherungssensor (nah/fern) – oft infrarot-optisch realisiert.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Elektrizitätslehre",
+      "title": "Magnetic field",
+      "url": "https://phyphox.org/experiment/magnetic-field/",
+      "hardware": [
+        "Magnetometer"
+      ],
+      "short_description": "Rohdaten des Magnetometers (kompassrelevantes B-Feld; kalibriert/unkalibriert wählbar).",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    },
+    {
+      "kategorie": "Elektrizitätslehre",
+      "title": "Magnetic ruler",
+      "url": "https://phyphox.org/experiment/magnetic-ruler/",
+      "hardware": [
+        "Magnetometer"
+      ],
+      "short_description": "Magnet-Lineal: Magnete als Marker nutzen, um Weg/Tempo über Magnetfeld-Peaks zu messen.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": true,
+        "material_for_schools": false,
+        "leifi": true
+      }
+    },
+    {
+      "kategorie": "Elektrizitätslehre",
+      "title": "Magnetic Spectrum",
+      "url": "https://phyphox.org/experiment/magnetic-spectrum/",
+      "hardware": [
+        "Magnetometer"
+      ],
+      "short_description": "Fourieranalyse (FFT) des Magnetometersignals mit Anzeige der stärksten Frequenz.",
+      "flags": {
+        "included_in_phyphox": true,
+        "video_instructions": false,
+        "material_for_schools": false,
+        "leifi": false
+      }
+    }
+  ]
+}

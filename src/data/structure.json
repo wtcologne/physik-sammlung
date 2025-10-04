@@ -10,50 +10,313 @@
       "route": "/mechanik",
       "tiles": [
         {
+          "id": "6-1-wir-messen-temperaturen",
+          "code": "6.1",
+          "grade": 6,
+          "title": "Wir messen Temperaturen",
+          "subtitle": "Wie funktionieren unterschiedliche Thermometer?",
+          "hours": 10,
+          "topics": [
+            "Temperatur",
+            "Wärme",
+            "Temperaturmessung",
+            "Wärmeausdehnung"
+          ],
+          "route": "/mechanik/6-1-wir-messen-temperaturen",
+          "level": "Sek I",
+          "guiding_question": "Wie funktionieren unterschiedliche Thermometer?",
+          "time_hours": 10,
+          "inhaltsfelder": [
+            {
+              "code": "IF 1",
+              "title": "Temperatur und Wärme",
+              "schwerpunkte": [
+                "thermische Energie: Wärme, Temperatur und Temperaturmessung",
+                "Wirkungen von Wärme: Wärmeausdehnung"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "E2",
+              "bereich": "Beobachtung und Wahrnehmung",
+              "punkte": [
+                "Beschreibung von Phänomenen"
+              ]
+            },
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Messen physikalischer Größen"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Modelle zur Erklärung"
+              ]
+            },
+            {
+              "code": "K1",
+              "bereich": "Dokumentation",
+              "punkte": [
+                "Protokolle nach vorgegebenem Schema",
+                "Anlegen von Tabellen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Einführung Modellbegriff",
+              "Erste Anleitung zum selbstständigen Experimentieren"
+            ],
+            "vernetzung": [
+              "Ausdifferenzierung des Teilchenmodells → Elektron-Atomrumpf & Kern-Hülle (IF 9, IF 10)"
+            ],
+            "synergien": [
+              "Beobachtungen/Beschreibungen/Protokolle ↔ Biologie (IF 1)"
+            ]
+          }
+        },
+        {
+          "id": "6-2-leben-bei-verschiedenen-temperaturen",
+          "code": "6.2",
+          "grade": 6,
+          "title": "Leben bei verschiedenen Temperaturen",
+          "subtitle": "Wie beeinflusst die Temperatur Vorgänge in der Natur?",
+          "hours": 10,
+          "topics": [
+            "Wärme",
+            "Temperatur",
+            "Wärmetransport",
+            "Aggregatzustände",
+            "Wärmedämmung"
+          ],
+          "route": "/mechanik/6-2-leben-bei-verschiedenen-temperaturen",
+          "kompetenzen": [
+            {
+              "code": "UF1",
+              "bereich": "Wiedergabe und Erläuterung",
+              "punkte": [
+                "Erläuterung von Phänomenen",
+                "Fachbegriffe gegeneinander abgrenzen"
+              ]
+            },
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "physikalische Erklärungen in Alltagssituationen"
+              ]
+            },
+            {
+              "code": "E2",
+              "bereich": "Beobachtung und Wahrnehmung",
+              "punkte": [
+                "Unterscheidung Beschreibung – Deutung"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Modelle zur Erklärung und Vorhersage"
+              ]
+            },
+            {
+              "code": "K1",
+              "bereich": "Dokumentation",
+              "punkte": [
+                "Tabellen und Diagramme nach Vorgabe"
+              ]
+            }
+          ],
+          "guiding_question": "Wie beeinflusst die Temperatur Vorgänge in der Natur?",
+          "time_hours": 10,
+          "inhaltsfelder": [
+            {
+              "code": "IF 1",
+              "title": "Temperatur und Wärme",
+              "schwerpunkte": [
+                "thermische Energie: Wärme, Temperatur",
+                "Wärmetransport: Wärmemitführung, Wärmeleitung, Wärmestrahlung; Temperaturausgleich; Wärmedämmung",
+                "Wirkungen von Wärme: Veränderung von Aggregatzuständen und Wärmeausdehnung"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Anwendungen/Phänomene der Wärme im Vordergrund; Energie nur am Rande",
+              "Argumentation mit dem Teilchenmodell",
+              "Selbstständiges Experimentieren"
+            ],
+            "vernetzung": [
+              "Aspekte Energieerhaltung und -entwertung → (IF 7)",
+              "Ausdifferenzierung Teilchenmodell → Elektron-Atomrumpf & Kern-Hülle (IF 9, IF 10)"
+            ],
+            "synergien": [
+              "Angepasstheit an Jahreszeiten/extreme Lebensräume ↔ Biologie (IF 1)",
+              "Teilchenmodell → Chemie (IF 1)"
+            ]
+          },
+          "level": "Sek I"
+        },
+        {
           "id": "6-5-physik-und-musik",
           "code": "6.5",
           "grade": 6,
           "title": "Physik und Musik",
           "subtitle": "Wie lässt sich Musik physikalisch beschreiben?",
           "hours": 6,
-          "topics": ["Schwingungen", "Schallausbreitung", "Tonhöhe", "Lautstärke", "Sender-Empfänger-Modell"],
-          "route": "/mechanik/6-5-physik-und-musik",
-          "inhaltsfeld": "IF 3: Schall",
-          "inhaltlicheSchwerpunkte": [
-            {
-              "title": "Schwingungen und Schallwellen",
-              "items": ["Tonhöhe und Lautstärke", "Schallausbreitung"]
-            },
-            {
-              "title": "Schallquellen und Schallempfänger",
-              "items": ["Sender-Empfängermodell"]
-            }
+          "topics": [
+            "Schwingungen",
+            "Schallausbreitung",
+            "Tonhöhe",
+            "Lautstärke",
+            "Sender-Empfänger-Modell"
           ],
+          "route": "/mechanik/6-5-physik-und-musik",
           "kompetenzen": [
             {
               "code": "UF4",
-              "title": "Übertragung und Vernetzung",
-              "items": ["Fachbegriffe und Alltagssprache"]
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "Fachbegriffe und Alltagssprache"
+              ]
             },
             {
               "code": "E2",
-              "title": "Beobachtung und Wahrnehmung",
-              "items": ["Phänomene wahrnehmen und Veränderungen beschreiben"]
+              "bereich": "Beobachtung und Wahrnehmung",
+              "punkte": [
+                "Phänomene wahrnehmen; Veränderungen beschreiben"
+              ]
             },
             {
               "code": "E5",
-              "title": "Auswertung und Schlussfolgerung",
-              "items": ["Interpretationen von Diagrammen"]
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Interpretation von Diagrammen"
+              ]
             },
             {
               "code": "E6",
-              "title": "Modell und Realität"
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Funktionsmodell zur Veranschaulichung"
+              ]
             }
           ],
-          "vereinbarungen": {
-            "schwerpunktsetzung": ["Nur qualitative Betrachtung der Größen, keine Formeln"],
-            "vernetzung": ["Teilchenmodell (IF1)"]
-          }
+          "experiments": [
+            {
+              "title": "Schwingende Gummibänder",
+              "type": "hands-on",
+              "description": "Untersuche die Frequenz von schwingenden Gummibändern",
+              "duration": 25,
+              "difficulty": "einfach",
+              "materials": [
+                "Gummibänder verschiedener Stärken",
+                "Karton oder Holzbrett",
+                "Lineal",
+                "Stoppuhr (Smartphone)"
+              ],
+              "safety": "Vorsicht beim Spannen der Gummibänder - nicht zu stark ziehen!",
+              "procedure": [
+                "Spanne ein Gummiband zwischen zwei Nägeln oder Haken",
+                "Zupfe das Band an und beobachte die Schwingung",
+                "Messe die Frequenz mit Phyphox (Mikrofon)",
+                "Variiere die Spannung des Bandes",
+                "Teste verschiedene Bandstärken",
+                "Vergleiche die gemessenen Frequenzen"
+              ]
+            },
+            {
+              "title": "Doppler effect",
+              "type": "phyphox",
+              "description": "Dopplereffekt: Frequenzverschiebung mit dem Mikrofon bestimmen.",
+              "phyphox": {
+                "id": "doppler-effect",
+                "title": "Doppler effect",
+                "description": "Dopplereffekt: Frequenzverschiebung mit dem Mikrofon bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/doppler-effect/",
+                "sensors": [
+                  "Microphone"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Sonar",
+              "type": "phyphox",
+              "description": "Smartphone als Sonar: Distanzen messen oder Schallgeschwindigkeit bestimmen.",
+              "phyphox": {
+                "id": "sonar",
+                "title": "Sonar",
+                "description": "Smartphone als Sonar: Distanzen messen oder Schallgeschwindigkeit bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/sonar/",
+                "sensors": [
+                  "Microphone",
+                  "Speaker"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Speed of sound",
+              "type": "phyphox",
+              "description": "Schallgeschwindigkeit mit zwei Smartphones und Maßband über die akustische Stoppuhr bestimmen.",
+              "phyphox": {
+                "id": "speed-of-sound",
+                "title": "Speed of sound",
+                "description": "Schallgeschwindigkeit mit zwei Smartphones und Maßband über die akustische Stoppuhr bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/speed-of-sound/",
+                "sensors": [
+                  "Microphone"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ],
+          "guiding_question": "Wie lässt sich Musik physikalisch beschreiben?",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 3",
+              "title": "Schall",
+              "schwerpunkte": [
+                "Schwingungen und Schallwellen: Tonhöhe und Lautstärke; Schallausbreitung",
+                "Schallquellen und -empfänger: Sender-Empfänger-Modell"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Nur qualitative Betrachtung; keine Formeln"
+            ],
+            "vernetzung": [
+              "← Teilchenmodell (IF 1)"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "6-6-achtung-laerm",
@@ -62,8 +325,120 @@
           "title": "Achtung Lärm!",
           "subtitle": "Lärm, Absorption, Reflexion",
           "hours": 4,
-          "topics": ["Schallausbreitung", "Absorption", "Reflexion", "Lärmschutz"],
-          "route": "/mechanik/6-6-achtung-laerm"
+          "topics": [
+            "Schallausbreitung",
+            "Absorption",
+            "Reflexion",
+            "Lärmschutz"
+          ],
+          "route": "/mechanik/6-6-achtung-laerm",
+          "level": "Sek I",
+          "guiding_question": "Wie schützt man sich vor Lärm?",
+          "time_hours": 4,
+          "inhaltsfelder": [
+            {
+              "code": "IF 3",
+              "title": "Schall",
+              "schwerpunkte": [
+                "Schwingungen und Schallwellen: Schallausbreitung; Absorption; Reflexion",
+                "Schallquellen und -empfänger: Lärm und Lärmschutz"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "Fachbegriffe und Alltagssprache"
+              ]
+            },
+            {
+              "code": "B1",
+              "bereich": "Fakten- und Situationsanalyse",
+              "punkte": [
+                "Fakten nennen und gegenüber Interessen abgrenzen"
+              ]
+            },
+            {
+              "code": "B3",
+              "bereich": "Abwägung und Entscheidung",
+              "punkte": [
+                "Erhaltung der eigenen Gesundheit"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "vernetzung": [
+              "← Teilchenmodell (IF 1)"
+            ]
+          },
+          "experiments": [
+            {
+              "title": "Doppler effect",
+              "type": "phyphox",
+              "description": "Dopplereffekt: Frequenzverschiebung mit dem Mikrofon bestimmen.",
+              "phyphox": {
+                "id": "doppler-effect",
+                "title": "Doppler effect",
+                "description": "Dopplereffekt: Frequenzverschiebung mit dem Mikrofon bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/doppler-effect/",
+                "sensors": [
+                  "Microphone"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Sonar",
+              "type": "phyphox",
+              "description": "Smartphone als Sonar: Distanzen messen oder Schallgeschwindigkeit bestimmen.",
+              "phyphox": {
+                "id": "sonar",
+                "title": "Sonar",
+                "description": "Smartphone als Sonar: Distanzen messen oder Schallgeschwindigkeit bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/sonar/",
+                "sensors": [
+                  "Microphone",
+                  "Speaker"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Speed of sound",
+              "type": "phyphox",
+              "description": "Schallgeschwindigkeit mit zwei Smartphones und Maßband über die akustische Stoppuhr bestimmen.",
+              "phyphox": {
+                "id": "speed-of-sound",
+                "title": "Speed of sound",
+                "description": "Schallgeschwindigkeit mit zwei Smartphones und Maßband über die akustische Stoppuhr bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/speed-of-sound/",
+                "sensors": [
+                  "Microphone"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         },
         {
           "id": "6-7-schall-in-natur-und-technik",
@@ -72,8 +447,42 @@
           "title": "Schall in Natur und Technik",
           "subtitle": "Ultraschall & Anwendungen",
           "hours": 2,
-          "topics": ["Ultraschall", "Tierwelt", "Medizin", "Technik"],
-          "route": "/mechanik/6-7-schall-in-natur-und-technik"
+          "topics": [
+            "Ultraschall",
+            "Tierwelt",
+            "Medizin",
+            "Technik"
+          ],
+          "route": "/mechanik/6-7-schall-in-natur-und-technik",
+          "guiding_question": "Schall ist nicht nur zum Hören gut!",
+          "time_hours": 2,
+          "inhaltsfelder": [
+            {
+              "code": "IF 3",
+              "title": "Schall",
+              "schwerpunkte": [
+                "Schwingungen und Schallwellen: Tonhöhe und Lautstärke",
+                "Schallquellen und -empfänger: Ultraschall in Tierwelt, Medizin und Technik"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "Kenntnisse übertragen"
+              ]
+            },
+            {
+              "code": "E2",
+              "bereich": "Beobachtung und Wahrnehmung",
+              "punkte": [
+                "Phänomene aus Tierwelt und Technik beschreiben"
+              ]
+            }
+          ],
+          "level": "Sek I"
         },
         {
           "id": "9-2-100m-in-10-sekunden",
@@ -82,8 +491,146 @@
           "title": "100 m in 10 Sekunden",
           "subtitle": "Geschwindigkeit & Beschleunigung",
           "hours": 6,
-          "topics": ["Geschwindigkeit", "Beschleunigung", "Messdaten & Diagramme"],
-          "route": "/mechanik/9-2-100m-in-10-sekunden"
+          "topics": [
+            "Geschwindigkeit",
+            "Beschleunigung",
+            "Messdaten & Diagramme"
+          ],
+          "route": "/mechanik/9-2-100m-in-10-sekunden",
+          "guiding_question": "Wie schnell bin ich?",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 7",
+              "title": "Bewegung, Kraft und Energie",
+              "schwerpunkte": [
+                "Bewegungen: Geschwindigkeit; Beschleunigung"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF1",
+              "bereich": "Wiedergabe und Erläuterung",
+              "punkte": [
+                "Bewegungen analysieren"
+              ]
+            },
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Messwerte aufnehmen",
+                "Systematische Untersuchung von Zusammenhängen"
+              ]
+            },
+            {
+              "code": "E5",
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Diagramme erstellen",
+                "Kurvenverläufe interpretieren"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Einführung Vektorpfeile; reale Messdaten in Diagrammen"
+            ],
+            "vernetzung": [
+              "Vektorielle Größen → Kraft (IF 7)"
+            ],
+            "synergien": [
+              "Mathematik: Funktionale Zusammenhänge"
+            ]
+          },
+          "level": "Sek I",
+          "experiments": [
+            {
+              "title": "Free fall (acoustic detection)",
+              "type": "phyphox",
+              "description": "Freier Fall mit akustischer Zeitmessung per Mikrofon und akustischer Stoppuhr.",
+              "phyphox": {
+                "id": "free-fall-2",
+                "title": "Free fall (acoustic detection)",
+                "description": "Freier Fall mit akustischer Zeitmessung per Mikrofon und akustischer Stoppuhr.",
+                "phyphoxUrl": "https://phyphox.org/experiment/free-fall-2/",
+                "sensors": [
+                  "Microphone"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Free fall (magnetic detection)",
+              "type": "phyphox",
+              "description": "Freier Fall: Smartphone an Magnet-Array vorbeifallen lassen und das Magnetfeld zur Bestimmung der linearen Beschleunigung auswerten.",
+              "phyphox": {
+                "id": "free-fall",
+                "title": "Free fall (magnetic detection)",
+                "description": "Freier Fall: Smartphone an Magnet-Array vorbeifallen lassen und das Magnetfeld zur Bestimmung der linearen Beschleunigung auswerten.",
+                "phyphoxUrl": "https://phyphox.org/experiment/free-fall/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Linear acceleration on an air track",
+              "type": "phyphox",
+              "description": "Smartphone auf der Luftkissenbahn – Beschleunigung mittels Magnet-Array über das Magnetfeld erforschen.",
+              "phyphox": {
+                "id": "linear-acceleration-on-an-air-track",
+                "title": "Linear acceleration on an air track",
+                "description": "Smartphone auf der Luftkissenbahn – Beschleunigung mittels Magnet-Array über das Magnetfeld erforschen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/linear-acceleration-on-an-air-track/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Elevator",
+              "type": "phyphox",
+              "description": "Fahrstuhl: Geschwindigkeit und zurückgelegte Höhe über den Luftdruck ermitteln.",
+              "phyphox": {
+                "id": "elevator",
+                "title": "Elevator",
+                "description": "Fahrstuhl: Geschwindigkeit und zurückgelegte Höhe über den Luftdruck ermitteln.",
+                "phyphoxUrl": "https://phyphox.org/experiment/elevator/",
+                "sensors": [
+                  "Pressure sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         },
         {
           "id": "9-3-einfache-maschinen",
@@ -92,8 +639,135 @@
           "title": "Einfache Maschinen und Werkzeuge",
           "subtitle": "Kräfte, Reibung & Goldene Regel",
           "hours": 12,
-          "topics": ["Kraft", "Reibung", "Kräfteaddition", "Goldene Regel", "einfache Maschinen"],
-          "route": "/mechanik/9-3-einfache-maschinen"
+          "topics": [
+            "Kraft",
+            "Reibung",
+            "Kräfteaddition",
+            "Goldene Regel",
+            "einfache Maschinen"
+          ],
+          "route": "/mechanik/9-3-einfache-maschinen",
+          "guiding_question": "Wie kann ich mit kleinen Kräften eine große Wirkung erzielen?",
+          "time_hours": 12,
+          "inhaltsfelder": [
+            {
+              "code": "IF 7",
+              "title": "Bewegung, Kraft und Energie",
+              "schwerpunkte": [
+                "Kraft: Bewegungsänderung; Verformung; Wechselwirkungsprinzip; Gewichtskraft und Masse; Kräfteaddition; Reibung",
+                "Goldene Regel der Mechanik: einfache Maschinen"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF3",
+              "bereich": "Ordnung und Systematisierung",
+              "punkte": [
+                "Kraft und Gegenkraft; Goldene Regel"
+              ]
+            },
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Messwerte aufnehmen",
+                "Systematische Untersuchung von Variablenbeziehungen"
+              ]
+            },
+            {
+              "code": "E5",
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Ableiten von Gesetzmäßigkeiten (Je-desto-Beziehungen)"
+              ]
+            },
+            {
+              "code": "B1",
+              "bereich": "Fakten- und Situationsanalyse",
+              "punkte": [
+                "Einsatzmöglichkeiten von Maschinen; Barrierefreiheit"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Experimentelles Arbeiten; Anforderungen an Messgeräte"
+            ],
+            "vernetzung": [
+              "Vektorielle Größen, Kraft ← Geschwindigkeit (IF 7)"
+            ],
+            "synergien": [
+              "Biologie: Bewegungsapparat",
+              "Mathematik: lineare/proportionale Funktionen"
+            ]
+          },
+          "level": "Sek I",
+          "experiments": [
+            {
+              "title": "Pendulum",
+              "type": "phyphox",
+              "description": "Fadenpendel: Schwingungsfrequenz messen und die Erdbeschleunigung bestimmen.",
+              "phyphox": {
+                "id": "pendulum",
+                "title": "Pendulum",
+                "description": "Fadenpendel: Schwingungsfrequenz messen und die Erdbeschleunigung bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/pendulum/",
+                "sensors": [
+                  "Gyroscope"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Spring",
+              "type": "phyphox",
+              "description": "Federpendel: Schwingungsfrequenz einer Masse-Feder-System bestimmen.",
+              "phyphox": {
+                "id": "spring",
+                "title": "Spring",
+                "description": "Federpendel: Schwingungsfrequenz einer Masse-Feder-System bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/spring/",
+                "sensors": [
+                  "Accelerometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Pressure in a bag",
+              "type": "phyphox",
+              "description": "Druckänderungen in einem aufgeblasenen Beutel bei aufgelegten Gewichten messen.",
+              "phyphox": {
+                "id": "pressure-in-a-bag",
+                "title": "Pressure in a bag",
+                "description": "Druckänderungen in einem aufgeblasenen Beutel bei aufgelegten Gewichten messen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/pressure-in-a-bag/",
+                "sensors": [
+                  "Pressure sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         },
         {
           "id": "9-4-energie-treibt-alles-an",
@@ -102,8 +776,244 @@
           "title": "Energie treibt alles an",
           "subtitle": "Energieformen, -erhaltung & Leistung",
           "hours": 8,
-          "topics": ["Energieformen", "Energieumwandlung", "Energieerhaltung", "Leistung"],
-          "route": "/mechanik/9-4-energie-treibt-alles-an"
+          "topics": [
+            "Energieformen",
+            "Energieumwandlung",
+            "Energieerhaltung",
+            "Leistung"
+          ],
+          "route": "/mechanik/9-4-energie-treibt-alles-an",
+          "level": "Sek I",
+          "guiding_question": "Was ist Energie? Wie kann ich schwere Dinge heben?",
+          "time_hours": 8,
+          "inhaltsfelder": [
+            {
+              "code": "IF 7",
+              "title": "Bewegung, Kraft und Energie",
+              "schwerpunkte": [
+                "Energieformen: Lage-, Bewegungs-, Spannenergie",
+                "Energieumwandlungen: Energieerhaltung; Leistung"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF1",
+              "bereich": "Wiedergabe und Erläuterung",
+              "punkte": [
+                "Energieumwandlungsketten"
+              ]
+            },
+            {
+              "code": "UF3",
+              "bereich": "Ordnung und Systematisierung",
+              "punkte": [
+                "Energieerhaltung"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Energieverluste durch Reibung; Energieerhaltung hier; Energiebilanzierung"
+            ],
+            "vernetzung": [
+              "Energieumwandlungen/Energieerhaltung ← Goldene Regel (IF 7)",
+              "← Energieentwertung (IF 1, IF 2)"
+            ],
+            "synergien": [
+              "Biologie (Energieumwandlungen)",
+              "Chemie (Energie/Erhaltung)"
+            ]
+          },
+          "experiments": [
+            {
+              "title": "Pendulum",
+              "type": "phyphox",
+              "description": "Fadenpendel: Schwingungsfrequenz messen und die Erdbeschleunigung bestimmen.",
+              "phyphox": {
+                "id": "pendulum",
+                "title": "Pendulum",
+                "description": "Fadenpendel: Schwingungsfrequenz messen und die Erdbeschleunigung bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/pendulum/",
+                "sensors": [
+                  "Gyroscope"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Spring",
+              "type": "phyphox",
+              "description": "Federpendel: Schwingungsfrequenz einer Masse-Feder-System bestimmen.",
+              "phyphox": {
+                "id": "spring",
+                "title": "Spring",
+                "description": "Federpendel: Schwingungsfrequenz einer Masse-Feder-System bestimmen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/spring/",
+                "sensors": [
+                  "Accelerometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Elevator",
+              "type": "phyphox",
+              "description": "Fahrstuhl: Geschwindigkeit und zurückgelegte Höhe über den Luftdruck ermitteln.",
+              "phyphox": {
+                "id": "elevator",
+                "title": "Elevator",
+                "description": "Fahrstuhl: Geschwindigkeit und zurückgelegte Höhe über den Luftdruck ermitteln.",
+                "phyphoxUrl": "https://phyphox.org/experiment/elevator/",
+                "sensors": [
+                  "Pressure sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
+        },
+        {
+          "id": "9-1-objekte-am-himmel",
+          "code": "9.1",
+          "grade": 9,
+          "title": "Objekte am Himmel",
+          "subtitle": "Was kennzeichnet die verschiedenen Himmelsobjekte?",
+          "hours": 10,
+          "topics": [
+            "Planeten",
+            "Himmelsobjekte",
+            "Sternentwicklung",
+            "Universum"
+          ],
+          "route": "/mechanik/9-1-objekte-am-himmel",
+          "kompetenzen": [
+            {
+              "code": "UF3",
+              "bereich": "Ordnung und Systematisierung",
+              "punkte": [
+                "Klassifizierung von Himmelsobjekten"
+              ]
+            },
+            {
+              "code": "E7",
+              "bereich": "Naturwissenschaftliches Denken und Arbeiten",
+              "punkte": [
+                "gesellschaftliche Auswirkungen"
+              ]
+            },
+            {
+              "code": "B2",
+              "bereich": "Bewertungskriterien und Handlungsoptionen",
+              "punkte": [
+                "Wissenschaftliche und andere Weltvorstellungen vergleichen"
+              ]
+            }
+          ],
+          "guiding_question": "Was kennzeichnet die verschiedenen Himmelsobjekte?",
+          "time_hours": 10,
+          "inhaltsfelder": [
+            {
+              "code": "IF 6",
+              "title": "Sterne und Weltall",
+              "schwerpunkte": [
+                "Sonnensystem: Planeten",
+                "Universum: Himmelsobjekte; Sternentwicklung"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "zusatz": [
+              "Gesellschaftliche Relevanz (Raumfahrtprojekte)"
+            ],
+            "vernetzung": [
+              "← Fernrohr (IF 5); Spektralzerlegung (IF 5)"
+            ]
+          },
+          "level": "Sek I",
+          "experiments": [
+            {
+              "title": "Optical stopwatch",
+              "type": "phyphox",
+              "description": "Zeitmessung über Helligkeitsschwellen (hell/dunkel) mit dem Lichtsensor.",
+              "phyphox": {
+                "id": "optical-stopwatch",
+                "title": "Optical stopwatch",
+                "description": "Zeitmessung über Helligkeitsschwellen (hell/dunkel) mit dem Lichtsensor.",
+                "phyphoxUrl": "https://phyphox.org/experiment/optical-stopwatch/",
+                "sensors": [
+                  "Light sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Light",
+              "type": "phyphox",
+              "description": "Rohdaten des Umgebungslichtsensors auslesen (Hinweis: nicht auf allen Geräten verfügbar).",
+              "phyphox": {
+                "id": "light",
+                "title": "Light",
+                "description": "Rohdaten des Umgebungslichtsensors auslesen (Hinweis: nicht auf allen Geräten verfügbar).",
+                "phyphoxUrl": "https://phyphox.org/experiment/light/",
+                "sensors": [
+                  "Light sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Proximity stopwatch",
+              "type": "phyphox",
+              "description": "Zeitmessung über Annäherungssensor (nah/fern) – oft infrarot-optisch realisiert.",
+              "phyphox": {
+                "id": "proximity-stopwatch",
+                "title": "Proximity stopwatch",
+                "description": "Zeitmessung über Annäherungssensor (nah/fern) – oft infrarot-optisch realisiert.",
+                "phyphoxUrl": "https://phyphox.org/experiment/proximity-stopwatch/",
+                "sensors": [
+                  "Proximity sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         },
         {
           "id": "9-5-druck-und-auftrieb",
@@ -112,8 +1022,114 @@
           "title": "Druck und Auftrieb",
           "subtitle": "Druck, Dichte & Archimedisches Prinzip",
           "hours": 10,
-          "topics": ["Druck", "Schweredruck", "Luftdruck", "Dichte", "Auftrieb", "Archimedisches Prinzip"],
-          "route": "/mechanik/9-5-druck-und-auftrieb"
+          "topics": [
+            "Druck",
+            "Schweredruck",
+            "Luftdruck",
+            "Dichte",
+            "Auftrieb",
+            "Archimedisches Prinzip"
+          ],
+          "route": "/mechanik/9-5-druck-und-auftrieb",
+          "guiding_question": "Was ist Druck?",
+          "time_hours": 10,
+          "inhaltsfelder": [
+            {
+              "code": "IF 8",
+              "title": "Druck und Auftrieb",
+              "schwerpunkte": [
+                "Druck in Flüssigkeiten und Gasen: Druck als Kraft pro Fläche; Schweredruck; Luftdruck (Atmosphäre); Dichte; Auftrieb; Archimedisches Prinzip",
+                "Druckmessung: Druck und Kraftwirkungen"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF1",
+              "bereich": "Wiedergabe und Erläuterung",
+              "punkte": [
+                "Druck und Kraftwirkungen"
+              ]
+            },
+            {
+              "code": "UF2",
+              "bereich": "Auswahl und Anwendung",
+              "punkte": [
+                "Auftriebskraft"
+              ]
+            },
+            {
+              "code": "E5",
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Schweredruck und Luftdruck bestimmen"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Druck und Dichte im Teilchenmodell; Auftrieb im mathematischen Modell"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Anwendung experimentell gewonnener Erkenntnisse"
+            ],
+            "vernetzung": [
+              "Druck ← Teilchenmodell (IF 1)",
+              "Auftrieb ← Kräfte (IF 7)"
+            ],
+            "synergien": [
+              "Dichte ← Chemie (IF 1)"
+            ]
+          },
+          "level": "Sek I",
+          "experiments": [
+            {
+              "title": "Pressure in a bag",
+              "type": "phyphox",
+              "description": "Druckänderungen in einem aufgeblasenen Beutel bei aufgelegten Gewichten messen.",
+              "phyphox": {
+                "id": "pressure-in-a-bag",
+                "title": "Pressure in a bag",
+                "description": "Druckänderungen in einem aufgeblasenen Beutel bei aufgelegten Gewichten messen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/pressure-in-a-bag/",
+                "sensors": [
+                  "Pressure sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Elevator",
+              "type": "phyphox",
+              "description": "Fahrstuhl: Geschwindigkeit und zurückgelegte Höhe über den Luftdruck ermitteln.",
+              "phyphox": {
+                "id": "elevator",
+                "title": "Elevator",
+                "description": "Fahrstuhl: Geschwindigkeit und zurückgelegte Höhe über den Luftdruck ermitteln.",
+                "phyphoxUrl": "https://phyphox.org/experiment/elevator/",
+                "sensors": [
+                  "Pressure sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         }
       ]
     },
@@ -129,8 +1145,61 @@
           "title": "Sehen und gesehen werden",
           "subtitle": "Lichtausbreitung & Sichtbarkeit",
           "hours": 6,
-          "topics": ["Lichtquellen/-empfänger", "Streuung", "Reflexion", "Transmission", "Absorption", "Schatten", "Lichtstrahlmodell"],
-          "route": "/optik/6-8-sehen-und-gesehen-werden"
+          "topics": [
+            "Lichtquellen/-empfänger",
+            "Streuung",
+            "Reflexion",
+            "Transmission",
+            "Absorption",
+            "Schatten",
+            "Lichtstrahlmodell"
+          ],
+          "route": "/optik/6-8-sehen-und-gesehen-werden",
+          "guiding_question": "Sicher mit dem Fahrrad im Straßenverkehr!",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 4",
+              "title": "Licht",
+              "schwerpunkte": [
+                "Ausbreitung von Licht: Lichtquellen und Lichtempfänger; Modell des Lichtstrahls",
+                "Sichtbarkeit/Erscheinung: Streuung, Reflexion; Transmission; Absorption; Schattenbildung"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF1",
+              "bereich": "Wiedergabe und Erläuterung",
+              "punkte": [
+                "Differenzierte Beschreibung von Beobachtungen"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Idealisierung durch das Modell Lichtstrahl"
+              ]
+            },
+            {
+              "code": "K1",
+              "bereich": "Dokumentation",
+              "punkte": [
+                "Erstellung präziser Zeichnungen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Reflexion nur als Phänomen"
+            ],
+            "vernetzung": [
+              "← Schall (IF 3)",
+              "Lichtstrahlmodell → Abbildungen mit optischen Geräten (IF 5)"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "6-9-licht-nutzbar-machen",
@@ -139,8 +1208,67 @@
           "title": "Licht nutzbar machen",
           "subtitle": "Lochkamera & Strahlungsarten",
           "hours": 6,
-          "topics": ["Abbildungen", "Schattenbildung", "Absorption", "Strahlungsarten", "Sicherheitsaspekte"],
-          "route": "/optik/6-9-licht-nutzbar-machen"
+          "topics": [
+            "Abbildungen",
+            "Schattenbildung",
+            "Absorption",
+            "Strahlungsarten",
+            "Sicherheitsaspekte"
+          ],
+          "route": "/optik/6-9-licht-nutzbar-machen",
+          "guiding_question": "Wie entsteht ein Bild in einer (Loch-)Kamera? Unterschiedliche Strahlungsarten – nützlich, aber auch gefährlich!",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 4",
+              "title": "Licht",
+              "schwerpunkte": [
+                "Ausbreitung von Licht: Abbildungen",
+                "Sichtbarkeit/Erscheinung: Schattenbildung; Absorption"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF3",
+              "bereich": "Ordnung und Systematisierung",
+              "punkte": [
+                "Bilder der Lochkamera verändern",
+                "Strahlungsarten vergleichen"
+              ]
+            },
+            {
+              "code": "K1",
+              "bereich": "Dokumentation",
+              "punkte": [
+                "Erstellen präziser Zeichnungen"
+              ]
+            },
+            {
+              "code": "B1",
+              "bereich": "Fakten- und Situationsanalyse",
+              "punkte": [
+                "Gefahren durch Strahlung",
+                "Sichtbarkeit verbessern"
+              ]
+            },
+            {
+              "code": "B3",
+              "bereich": "Abwägung und Entscheidung",
+              "punkte": [
+                "Auswahl geeigneter Schutzmaßnahmen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Nur einfache Abbildungen"
+            ],
+            "vernetzung": [
+              "Strahlengänge → Abbildungen mit optischen Geräten (IF 5)"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "7-1-spiegelbilder-im-strassenverkehr",
@@ -149,8 +1277,51 @@
           "title": "Spiegelbilder im Straßenverkehr",
           "subtitle": "Reflexion & Totalreflexion",
           "hours": 6,
-          "topics": ["Reflexionsgesetz", "Planspiegel", "Totalreflexion", "Brechung"],
-          "route": "/optik/7-1-spiegelbilder-im-strassenverkehr"
+          "topics": [
+            "Reflexionsgesetz",
+            "Planspiegel",
+            "Totalreflexion",
+            "Brechung"
+          ],
+          "route": "/optik/7-1-spiegelbilder-im-strassenverkehr",
+          "level": "Sek I",
+          "guiding_question": "Wie entsteht ein Spiegelbild?",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 5",
+              "title": "Optische Instrumente",
+              "schwerpunkte": [
+                "Spiegelungen: Reflexionsgesetz; Bildentstehung am Planspiegel",
+                "Lichtbrechung: Totalreflexion; Brechung an Grenzflächen"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF1",
+              "bereich": "Wiedergabe und Erläuterung",
+              "punkte": [
+                "Mathematische Formulierung eines physikalischen Zusammenhangs"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Idealisierung (Lichtstrahlmodell)"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Vornehmlich Sicherheitsaspekte"
+            ],
+            "vernetzung": [
+              "← IF 4 (Ausbreitung von Licht, Abbildungen, Reflexion)",
+              "Planspiegel → Spiegelteleskope (IF 6)"
+            ]
+          }
         },
         {
           "id": "7-2-die-welt-der-farben",
@@ -159,8 +1330,63 @@
           "title": "Die Welt der Farben",
           "subtitle": "Spektren, Absorption & Farbmischung",
           "hours": 6,
-          "topics": ["Spektralzerlegung", "Absorption", "Farbmischung", "digitale Farbmodelle"],
-          "route": "/optik/7-2-die-welt-der-farben"
+          "topics": [
+            "Spektralzerlegung",
+            "Absorption",
+            "Farbmischung",
+            "digitale Farbmodelle"
+          ],
+          "route": "/optik/7-2-die-welt-der-farben",
+          "guiding_question": "Farben! Wie kommt es dazu?",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 5",
+              "title": "Optische Instrumente",
+              "schwerpunkte": [
+                "Lichtbrechung: Brechung an Grenzflächen",
+                "Licht und Farben: Spektralzerlegung; Absorption; Farbmischung"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF3",
+              "bereich": "Ordnung und Systematisierung",
+              "punkte": [
+                "digitale Farbmodelle"
+              ]
+            },
+            {
+              "code": "E5",
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Parameter bei Reflexion und Brechung"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "digitale Farbmodelle"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Erkunden von Farbmodellen am PC"
+            ],
+            "vernetzung": [
+              "← IR/sichtbares/UV, Absorption, Lichtenergie (IF 4)",
+              "Spektren → Analyse von Sternenlicht (IF 6)",
+              "Lichtenergie → Photovoltaik (IF 11)"
+            ],
+            "synergien": [
+              "Schalenmodell ← Chemie (IF 1)",
+              "Farbensehen → Biologie (IF 7)"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "7-3-das-auge",
@@ -169,8 +1395,51 @@
           "title": "Das Auge – ein optisches System",
           "subtitle": "Sammellinsen & Bildentstehung",
           "hours": 6,
-          "topics": ["Brechung", "Sammellinsen", "Bildentstehung am Auge"],
-          "route": "/optik/7-3-das-auge"
+          "topics": [
+            "Brechung",
+            "Sammellinsen",
+            "Bildentstehung am Auge"
+          ],
+          "route": "/optik/7-3-das-auge",
+          "guiding_question": "Wie entsteht auf der Netzhaut ein scharfes Bild?",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 5",
+              "title": "Optische Instrumente",
+              "schwerpunkte": [
+                "Lichtbrechung: Brechung an Grenzflächen; Bildentstehung bei Sammellinsen und Auge"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Bildentstehung bei Sammellinsen"
+              ]
+            },
+            {
+              "code": "E5",
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Parametervariation bei Linsensystemen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Bildentstehung; Einsatz digitaler Werkzeuge (z. B. Geometriesoftware)"
+            ],
+            "vernetzung": [
+              "Linsen/Lochblende ← Strahlenmodell des Lichts, Abbildungen (IF 4)"
+            ],
+            "synergien": [
+              "Auge → Biologie (IF 7)"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "7-4-optische-instrumente",
@@ -179,8 +1448,186 @@
           "title": "Mit optischen Instrumenten Unsichtbares sichtbar gemacht",
           "subtitle": "Linsensysteme & Lichtleiter",
           "hours": 4,
-          "topics": ["Bildentstehung bei optischen Instrumenten", "Lichtleiter", "Endoskop", "Teleskope"],
-          "route": "/optik/7-4-optische-instrumente"
+          "topics": [
+            "Bildentstehung bei optischen Instrumenten",
+            "Lichtleiter",
+            "Endoskop",
+            "Teleskope"
+          ],
+          "route": "/optik/7-4-optische-instrumente",
+          "guiding_question": "Wie können wir Zellen und Planeten sichtbar machen?",
+          "time_hours": 4,
+          "inhaltsfelder": [
+            {
+              "code": "IF 5",
+              "title": "Optische Instrumente",
+              "schwerpunkte": [
+                "Lichtbrechung: Bildentstehung bei optischen Instrumenten; Lichtleiter"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF2",
+              "bereich": "Auswahl und Anwendung",
+              "punkte": [
+                "Brechung",
+                "Bildentstehung"
+              ]
+            },
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "Einfache optische Systeme; Endoskop und Glasfaserkabel"
+              ]
+            },
+            {
+              "code": "K3",
+              "bereich": "Präsentation",
+              "punkte": [
+                "arbeitsteilige Präsentationen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Erstellung von Präsentationen zu physikalischen Sachverhalten"
+            ],
+            "vernetzung": [
+              "Teleskope → Beobachtung von Himmelskörpern (IF 6)"
+            ],
+            "synergien": [
+              "Mikroskopie von Zellen ↔ Biologie (IF 1, IF 2, IF 6)"
+            ]
+          },
+          "level": "Sek I"
+        },
+        {
+          "id": "7-5-licht-und-schatten-im-sonnensystem",
+          "code": "7.5",
+          "grade": 7,
+          "title": "Licht und Schatten im Sonnensystem",
+          "subtitle": "Wie entstehen Mondphasen, Finsternisse und Jahreszeiten?",
+          "hours": 5,
+          "topics": [
+            "Mondphasen",
+            "Mond- und Sonnenfinsternisse",
+            "Jahreszeiten",
+            "Schatten"
+          ],
+          "route": "/optik/7-5-licht-und-schatten-im-sonnensystem",
+          "kompetenzen": [
+            {
+              "code": "E1",
+              "bereich": "Problem und Fragestellung",
+              "punkte": [
+                "naturwissenschaftlich beantwortbare Fragestellungen"
+              ]
+            },
+            {
+              "code": "E2",
+              "bereich": "Beobachtung und Wahrnehmung",
+              "punkte": [
+                "Differenzierte Beschreibung von Beobachtungen"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Phänomene mithilfe von Modellen erklären"
+              ]
+            }
+          ],
+          "guiding_question": "Wie entstehen Mondphasen, Finsternisse und Jahreszeiten?",
+          "time_hours": 5,
+          "inhaltsfelder": [
+            {
+              "code": "IF 6",
+              "title": "Sterne und Weltall",
+              "schwerpunkte": [
+                "Sonnensystem: Mondphasen; Mond- und Sonnenfinsternisse; Jahreszeiten"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Naturwissenschaftliche Fragestellungen, ggf. auch historisch"
+            ],
+            "vernetzung": [
+              "← Schatten (IF 4)"
+            ],
+            "synergien": [
+              "Schrägstellung der Erdachse/Jahreszeiten ↔ Erdkunde (IF 5)"
+            ]
+          },
+          "level": "Sek I",
+          "experiments": [
+            {
+              "title": "Optical stopwatch",
+              "type": "phyphox",
+              "description": "Zeitmessung über Helligkeitsschwellen (hell/dunkel) mit dem Lichtsensor.",
+              "phyphox": {
+                "id": "optical-stopwatch",
+                "title": "Optical stopwatch",
+                "description": "Zeitmessung über Helligkeitsschwellen (hell/dunkel) mit dem Lichtsensor.",
+                "phyphoxUrl": "https://phyphox.org/experiment/optical-stopwatch/",
+                "sensors": [
+                  "Light sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Light",
+              "type": "phyphox",
+              "description": "Rohdaten des Umgebungslichtsensors auslesen (Hinweis: nicht auf allen Geräten verfügbar).",
+              "phyphox": {
+                "id": "light",
+                "title": "Light",
+                "description": "Rohdaten des Umgebungslichtsensors auslesen (Hinweis: nicht auf allen Geräten verfügbar).",
+                "phyphoxUrl": "https://phyphox.org/experiment/light/",
+                "sensors": [
+                  "Light sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Proximity stopwatch",
+              "type": "phyphox",
+              "description": "Zeitmessung über Annäherungssensor (nah/fern) – oft infrarot-optisch realisiert.",
+              "phyphox": {
+                "id": "proximity-stopwatch",
+                "title": "Proximity stopwatch",
+                "description": "Zeitmessung über Annäherungssensor (nah/fern) – oft infrarot-optisch realisiert.",
+                "phyphoxUrl": "https://phyphox.org/experiment/proximity-stopwatch/",
+                "sensors": [
+                  "Proximity sensor"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         }
       ]
     },
@@ -194,10 +1641,132 @@
           "code": "6.3",
           "grade": 6,
           "title": "Elektrische Geräte im Alltag",
-          "subtitle": "Stromkreise & Wirkungen",
+          "subtitle": "Was geschieht in elektrischen Geräten?",
           "hours": 14,
-          "topics": ["Spannungsquellen", "Leiter/Nichtleiter", "verzweigte Stromkreise", "Wärme- & Magnetwirkung", "Gefahren"],
-          "route": "/elektrizitaetslehre/6-3-elektrische-geraete-im-alltag"
+          "topics": [
+            "Spannungsquellen",
+            "Leiter/Nichtleiter",
+            "verzweigte Stromkreise",
+            "Wärme- & Magnetwirkung",
+            "Gefahren"
+          ],
+          "route": "/elektrizitaetslehre/6-3-elektrische-geraete-im-alltag",
+          "kompetenzen": [
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "physikalische Konzepte auf Realsituationen anwenden"
+              ]
+            },
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Experimente planen und durchführen"
+              ]
+            },
+            {
+              "code": "K1",
+              "bereich": "Dokumentation",
+              "punkte": [
+                "Schaltskizzen erstellen, lesen und umsetzen"
+              ]
+            },
+            {
+              "code": "K4",
+              "bereich": "Argumentation",
+              "punkte": [
+                "Aussagen begründen"
+              ]
+            }
+          ],
+          "guiding_question": "Was geschieht in elektrischen Geräten?",
+          "time_hours": 14,
+          "inhaltsfelder": [
+            {
+              "code": "IF 2",
+              "title": "Elektrischer Strom und Magnetismus",
+              "schwerpunkte": [
+                "Stromkreise und Schaltungen: Spannungsquellen; Leiter/Nichtleiter; verzweigte Stromkreise; Elektronen in Leitern",
+                "Wirkungen des elektrischen Stroms: Wärme- und magnetische Wirkung; Gefahren durch Elektrizität"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Makroebene, grundlegende Phänomene, Umgang mit Grundbegriffen"
+            ],
+            "synergien": [
+              "UND-/ODER-Schaltung → Informatik (Differenzierungsbereich)"
+            ]
+          },
+          "level": "Sek I",
+          "experiments": [
+            {
+              "title": "Magnetic field",
+              "type": "phyphox",
+              "description": "Rohdaten des Magnetometers (kompassrelevantes B-Feld; kalibriert/unkalibriert wählbar).",
+              "phyphox": {
+                "id": "magnetic-field",
+                "title": "Magnetic field",
+                "description": "Rohdaten des Magnetometers (kompassrelevantes B-Feld; kalibriert/unkalibriert wählbar).",
+                "phyphoxUrl": "https://phyphox.org/experiment/magnetic-field/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Magnetic ruler",
+              "type": "phyphox",
+              "description": "Magnet-Lineal: Magnete als Marker nutzen, um Weg/Tempo über Magnetfeld-Peaks zu messen.",
+              "phyphox": {
+                "id": "magnetic-ruler",
+                "title": "Magnetic ruler",
+                "description": "Magnet-Lineal: Magnete als Marker nutzen, um Weg/Tempo über Magnetfeld-Peaks zu messen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/magnetic-ruler/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Magnetic Spectrum",
+              "type": "phyphox",
+              "description": "Fourieranalyse (FFT) des Magnetometersignals mit Anzeige der stärksten Frequenz.",
+              "phyphox": {
+                "id": "magnetic-spectrum",
+                "title": "Magnetic Spectrum",
+                "description": "Fourieranalyse (FFT) des Magnetometersignals mit Anzeige der stärksten Frequenz.",
+                "phyphoxUrl": "https://phyphox.org/experiment/magnetic-spectrum/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         },
         {
           "id": "6-4-magnetismus",
@@ -206,8 +1775,132 @@
           "title": "Magnetismus – interessant und hilfreich",
           "subtitle": "Magnetkräfte & -felder",
           "hours": 6,
-          "topics": ["anziehende/abstoßende Kräfte", "Feldskizzen", "Kompass"],
-          "route": "/elektrizitaetslehre/6-4-magnetismus"
+          "topics": [
+            "anziehende/abstoßende Kräfte",
+            "Feldskizzen",
+            "Kompass"
+          ],
+          "route": "/elektrizitaetslehre/6-4-magnetismus",
+          "guiding_question": "Warum zeigt uns der Kompass die Himmelsrichtung?",
+          "time_hours": 6,
+          "inhaltsfelder": [
+            {
+              "code": "IF 2",
+              "title": "Elektrischer Strom und Magnetismus",
+              "schwerpunkte": [
+                "magnetische Kräfte und Felder: anziehende/abstoßende Kräfte; Magnetpole; magnetische Felder; Feldlinienmodell; Magnetfeld der Erde",
+                "Magnetisierung: magnetisierbare Stoffe; Modell der Elementarmagnete"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "E3",
+              "bereich": "Vermutung und Hypothese",
+              "punkte": [
+                "Vermutungen äußern"
+              ]
+            },
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Systematisches Erkunden"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Modelle zur Veranschaulichung"
+              ]
+            },
+            {
+              "code": "K1",
+              "bereich": "Dokumentation",
+              "punkte": [
+                "Felder skizzieren"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Feld nur als Phänomen; erste Begegnung mit dem physikalischen Kraftbegriff"
+            ],
+            "vernetzung": [
+              "→ elektrisches Feld (IF 9)",
+              "→ Elektromotor und Generator (IF 11)"
+            ],
+            "synergien": [
+              "Erdkunde: Bestimmung der Himmelsrichtungen"
+            ]
+          },
+          "level": "Sek I",
+          "experiments": [
+            {
+              "title": "Magnetic field",
+              "type": "phyphox",
+              "description": "Rohdaten des Magnetometers (kompassrelevantes B-Feld; kalibriert/unkalibriert wählbar).",
+              "phyphox": {
+                "id": "magnetic-field",
+                "title": "Magnetic field",
+                "description": "Rohdaten des Magnetometers (kompassrelevantes B-Feld; kalibriert/unkalibriert wählbar).",
+                "phyphoxUrl": "https://phyphox.org/experiment/magnetic-field/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Magnetic ruler",
+              "type": "phyphox",
+              "description": "Magnet-Lineal: Magnete als Marker nutzen, um Weg/Tempo über Magnetfeld-Peaks zu messen.",
+              "phyphox": {
+                "id": "magnetic-ruler",
+                "title": "Magnetic ruler",
+                "description": "Magnet-Lineal: Magnete als Marker nutzen, um Weg/Tempo über Magnetfeld-Peaks zu messen.",
+                "phyphoxUrl": "https://phyphox.org/experiment/magnetic-ruler/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Video-Anweisungen auf phyphox.org"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            },
+            {
+              "title": "Magnetic Spectrum",
+              "type": "phyphox",
+              "description": "Fourieranalyse (FFT) des Magnetometersignals mit Anzeige der stärksten Frequenz.",
+              "phyphox": {
+                "id": "magnetic-spectrum",
+                "title": "Magnetic Spectrum",
+                "description": "Fourieranalyse (FFT) des Magnetometersignals mit Anzeige der stärksten Frequenz.",
+                "phyphoxUrl": "https://phyphox.org/experiment/magnetic-spectrum/",
+                "sensors": [
+                  "Magnetometer"
+                ],
+                "instructions": [
+                  "Öffne das Experiment in der Phyphox App",
+                  "Folge den Anweisungen in der App"
+                ],
+                "expectedResults": []
+              },
+              "duration": 15,
+              "difficulty": "mittel"
+            }
+          ]
         },
         {
           "id": "9-6-blitze-und-gewitter",
@@ -216,8 +1909,68 @@
           "title": "Blitze und Gewitter",
           "subtitle": "Elektrostatik & Felder",
           "hours": 8,
-          "topics": ["elektrische Ladungen", "elektrische Felder", "Spannung", "Ladungstransport", "Strom"],
-          "route": "/elektrizitaetslehre/9-6-blitze-und-gewitter"
+          "topics": [
+            "elektrische Ladungen",
+            "elektrische Felder",
+            "Spannung",
+            "Ladungstransport",
+            "Strom"
+          ],
+          "route": "/elektrizitaetslehre/9-6-blitze-und-gewitter",
+          "guiding_question": "Warum schlägt der Blitz ein?",
+          "time_hours": 8,
+          "inhaltsfelder": [
+            {
+              "code": "IF 9",
+              "title": "Elektrizität",
+              "schwerpunkte": [
+                "Elektrostatik: elektrische Ladungen; elektrische Felder; Spannung",
+                "elektrische Stromkreise: Elektronen-Atomrumpf-Modell; Ladungstransport; elektrischer Strom"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF1",
+              "bereich": "Wiedergabe und Erläuterung",
+              "punkte": [
+                "korrekter Gebrauch von Ladung/Spannung/Stromstärke; Unterscheidung Einheit und Größe"
+              ]
+            },
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Umgang mit Amperemeter und Voltmeter"
+              ]
+            },
+            {
+              "code": "E5",
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Schlussfolgerungen aus Beobachtungen"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Elektronen-Atomrumpf-Modell; Feldlinienmodell; Schaltpläne"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Anwendung des Elektronen-Atomrumpf-Modells"
+            ],
+            "vernetzung": [
+              "← Elektrische Stromkreise (IF 2)"
+            ],
+            "synergien": [
+              "Kern-Hülle-Modell ← Chemie (IF 5)"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "10-1-sicherer-umgang-mit-elektrizitaet",
@@ -226,8 +1979,74 @@
           "title": "Sicherer Umgang mit Elektrizität",
           "subtitle": "Widerstand, Schaltungen & Leistung",
           "hours": 14,
-          "topics": ["Widerstand", "Reihen-/Parallelschaltung", "Sicherungen", "elektrische Leistung/Energie"],
-          "route": "/elektrizitaetslehre/10-1-sicherer-umgang-mit-elektrizitaet"
+          "topics": [
+            "Widerstand",
+            "Reihen-/Parallelschaltung",
+            "Sicherungen",
+            "elektrische Leistung/Energie"
+          ],
+          "route": "/elektrizitaetslehre/10-1-sicherer-umgang-mit-elektrizitaet",
+          "guiding_question": "Wann ist Strom gefährlich?",
+          "time_hours": 14,
+          "inhaltsfelder": [
+            {
+              "code": "IF 9",
+              "title": "Elektrizität",
+              "schwerpunkte": [
+                "elektrische Stromkreise: elektrischer Widerstand; Reihen- und Parallelschaltung; Sicherungsvorrichtungen",
+                "elektrische Energie und Leistung"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "Anwendung auf Alltagssituationen"
+              ]
+            },
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Systematische Untersuchung von Variablenbeziehungen"
+              ]
+            },
+            {
+              "code": "E5",
+              "bereich": "Auswertung und Schlussfolgerung",
+              "punkte": [
+                "Mathematisierung (proportionale Zusammenhänge, grafisch & rechnerisch)"
+              ]
+            },
+            {
+              "code": "E6",
+              "bereich": "Modell und Realität",
+              "punkte": [
+                "Analogiemodelle und ihre Grenzen"
+              ]
+            },
+            {
+              "code": "B3",
+              "bereich": "Abwägung und Entscheidung",
+              "punkte": [
+                "Sicherheit im Umgang mit Elektrizität"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Analogiemodelle (z. B. Wassermodell); Mathematisierung; keine komplexen Ersatzschaltungen"
+            ],
+            "vernetzung": [
+              "← Stromwirkungen (IF 2)"
+            ],
+            "synergien": [
+              "Mathematik: proportionale Zuordnungen; Gleichungsumformungen"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "10-4-versorgung-mit-elektrischer-energie",
@@ -236,8 +2055,192 @@
           "title": "Versorgung mit elektrischer Energie",
           "subtitle": "Induktion, Motor, Generator, Trafo, AC",
           "hours": 14,
-          "topics": ["Elektromotor", "Generator", "Wechselspannung", "Transformator", "Energieübertragung", "Wirkungsgrad"],
-          "route": "/elektrizitaetslehre/10-4-versorgung-mit-elektrischer-energie"
+          "topics": [
+            "Elektromotor",
+            "Generator",
+            "Wechselspannung",
+            "Transformator",
+            "Energieübertragung",
+            "Wirkungsgrad"
+          ],
+          "route": "/elektrizitaetslehre/10-4-versorgung-mit-elektrischer-energie",
+          "guiding_question": "Wie erfolgt die Übertragung der elektrischen Energie vom Kraftwerk bis zum Haushalt?",
+          "time_hours": 14,
+          "inhaltsfelder": [
+            {
+              "code": "IF 11",
+              "title": "Energieversorgung",
+              "schwerpunkte": [
+                "Induktion & Elektromagnetismus: Elektromotor; Generator; Wechselspannung; Transformator",
+                "Bereitstellung & Nutzung: Energieübertragung; Energieentwertung; Wirkungsgrad"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "E4",
+              "bereich": "Untersuchung und Experiment",
+              "punkte": [
+                "Planung von Experimenten mit >2 Variablen; Variablenkontrolle"
+              ]
+            },
+            {
+              "code": "B2",
+              "bereich": "Bewertungskriterien und Handlungsoptionen",
+              "punkte": [
+                "Kaufentscheidungen treffen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Verantwortlicher Umgang mit Energie"
+            ],
+            "vernetzung": [
+              "← Lorentzkraft, Energiewandlung (IF 10)",
+              "← mechanische Leistung & Energie (IF 7)",
+              "← elektrische Leistung & Energie (IF 9)"
+            ]
+          },
+          "level": "Sek I"
+        },
+        {
+          "id": "10-2-gefahren-und-nutzen-ionisierender-strahlung",
+          "code": "10.2",
+          "grade": 10,
+          "title": "Gefahren und Nutzen ionisierender Strahlung",
+          "subtitle": "Ist ionisierende Strahlung gefährlich oder nützlich?",
+          "hours": 15,
+          "topics": [
+            "Alpha-, Beta-, Gamma-Strahlung",
+            "radioaktiver Zerfall",
+            "Halbwertszeit",
+            "Röntgenstrahlung",
+            "Nachweismethoden",
+            "biologische Wirkungen",
+            "medizinische Anwendungen",
+            "Schutzmaßnahmen"
+          ],
+          "route": "/elektrizitaetslehre/10-2-gefahren-und-nutzen-ionisierender-strahlung",
+          "kompetenzen": [
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "biologische Wirkungen & medizinische Anwendungen"
+              ]
+            },
+            {
+              "code": "E1",
+              "bereich": "Problem und Fragestellung",
+              "punkte": [
+                "Auswirkungen auf Politik und Gesellschaft"
+              ]
+            },
+            {
+              "code": "E7",
+              "bereich": "Naturwissenschaftliches Denken und Arbeiten",
+              "punkte": [
+                "Nachweisen und Modellieren"
+              ]
+            },
+            {
+              "code": "K2",
+              "bereich": "Informationsverarbeitung",
+              "punkte": [
+                "Filterung wichtiger Aspekte"
+              ]
+            }
+          ],
+          "guiding_question": "Ist ionisierende Strahlung gefährlich oder nützlich?",
+          "time_hours": 15,
+          "inhaltsfelder": [
+            {
+              "code": "IF 10",
+              "title": "Ionisierende Strahlung und Kernenergie",
+              "schwerpunkte": [
+                "Atomaufbau und ionisierende Strahlung: Alpha-, Beta-, Gamma-Strahlung; radioaktiver Zerfall; Halbwertszeit; Röntgenstrahlung",
+                "Wechselwirkung mit Materie: Nachweismethoden; Absorption; biologische Wirkungen; medizinische Anwendungen; Schutzmaßnahmen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Quellenkritische Recherche; Präsentation"
+            ],
+            "vernetzung": [
+              "Atommodelle ← Chemie (IF 5)",
+              "Radioaktiver Zerfall ← Mathematik (Exponentialfunktion)",
+              "→ Biologie (SII: Mutationen, 14C)"
+            ]
+          },
+          "level": "Sek I"
+        },
+        {
+          "id": "10-3-energie-aus-atomkernen",
+          "code": "10.3",
+          "grade": 10,
+          "title": "Energie aus Atomkernen",
+          "subtitle": "Ist die Kernenergie beherrschbar?",
+          "hours": 10,
+          "topics": [
+            "Kernspaltung",
+            "Kernfusion",
+            "Kernkraftwerke",
+            "Endlagerung"
+          ],
+          "route": "/elektrizitaetslehre/10-3-energie-aus-atomkernen",
+          "kompetenzen": [
+            {
+              "code": "K2",
+              "bereich": "Informationsverarbeitung",
+              "punkte": [
+                "Seriosität von Quellen"
+              ]
+            },
+            {
+              "code": "K4",
+              "bereich": "Argumentation",
+              "punkte": [
+                "eigenen Standpunkt schlüssig vertreten"
+              ]
+            },
+            {
+              "code": "B1",
+              "bereich": "Fakten- und Situationsanalyse",
+              "punkte": [
+                "relevante Informationen identifizieren"
+              ]
+            },
+            {
+              "code": "B3",
+              "bereich": "Abwägung und Entscheidung",
+              "punkte": [
+                "Meinungsbildung"
+              ]
+            }
+          ],
+          "guiding_question": "Ist die Kernenergie beherrschbar?",
+          "time_hours": 10,
+          "inhaltsfelder": [
+            {
+              "code": "IF 10",
+              "title": "Ionisierende Strahlung und Kernenergie",
+              "schwerpunkte": [
+                "Kernenergie: Kernspaltung; Kernfusion; Kernkraftwerke; Endlagerung"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Meinungsbildung, Quellenbeurteilung, Urteilsfähigkeit"
+            ],
+            "vernetzung": [
+              "← Zerfallsgleichung aus 10.1",
+              "→ Vergleich unterschiedlicher Energieanlagen (IF 11)"
+            ]
+          },
+          "level": "Sek I"
         },
         {
           "id": "10-5-energieversorgung-der-zukunft",
@@ -246,11 +2249,71 @@
           "title": "Energieversorgung der Zukunft",
           "subtitle": "Regenerative Energien & Nachhaltigkeit",
           "hours": 5,
-          "topics": ["Kraftwerke", "regenerative Anlagen", "Energieübertragung/-entwertung", "Wirkungsgrad", "Nachhaltigkeit"],
-          "route": "/elektrizitaetslehre/10-5-energieversorgung-der-zukunft"
+          "topics": [
+            "Kraftwerke",
+            "regenerative Anlagen",
+            "Energieübertragung/-entwertung",
+            "Wirkungsgrad",
+            "Nachhaltigkeit"
+          ],
+          "route": "/elektrizitaetslehre/10-5-energieversorgung-der-zukunft",
+          "guiding_question": "Wie können regenerative Energien zur Sicherung der Energieversorgung beitragen?",
+          "time_hours": 5,
+          "inhaltsfelder": [
+            {
+              "code": "IF 11",
+              "title": "Energieversorgung",
+              "schwerpunkte": [
+                "Bereitstellung & Nutzung: Kraftwerke; Regenerative Energieanlagen; Energieübertragung; Energieentwertung; Wirkungsgrad; Nachhaltigkeit"
+              ]
+            }
+          ],
+          "kompetenzen": [
+            {
+              "code": "UF4",
+              "bereich": "Übertragung und Vernetzung",
+              "punkte": [
+                "Beiträge verschiedener Disziplinen zur Problemlösung"
+              ]
+            },
+            {
+              "code": "K2",
+              "bereich": "Informationsverarbeitung",
+              "punkte": [
+                "Quellenanalyse"
+              ]
+            },
+            {
+              "code": "B3",
+              "bereich": "Abwägung und Entscheidung",
+              "punkte": [
+                "Filterung relevanter Daten"
+              ]
+            },
+            {
+              "code": "B4",
+              "bereich": "Stellungnahme und Reflexion",
+              "punkte": [
+                "Stellung beziehen"
+              ]
+            }
+          ],
+          "weitere_vereinbarungen": {
+            "schwerpunktsetzung": [
+              "Verantwortlicher Umgang mit Energie; Nachhaltigkeit"
+            ],
+            "vernetzung": [
+              "→ Kernkraftwerk, Energiewandlung (IF 10)"
+            ],
+            "synergien": [
+              "Chemie (Energie aus Reaktionen)",
+              "Erdkunde (Energiediskussion)",
+              "Wirtschaft-Politik (Energiepolitik)"
+            ]
+          },
+          "level": "Sek I"
         }
       ]
     }
   ]
 }
-

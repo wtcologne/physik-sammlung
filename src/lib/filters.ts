@@ -27,7 +27,19 @@ export function filterTiles(tiles: Tile[], filters: FilterOptions): Tile[] {
 
     // Level filter (Sek I/Sek II)
     if (filters.selectedLevels.length > 0) {
-      if (!tile.level || !filters.selectedLevels.includes(tile.level)) {
+      // Determine level based on code if not explicitly set
+      let tileLevel = tile.level
+      if (!tileLevel && tile.code) {
+        const code = tile.code
+        // All codes 6.1-10.5 are Sek I
+        if (code.match(/^[6-9]\.|^10\./)) {
+          tileLevel = 'Sek I'
+        } else {
+          tileLevel = 'Sek II'
+        }
+      }
+      
+      if (!tileLevel || !filters.selectedLevels.includes(tileLevel)) {
         return false
       }
     }
