@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import { Smartphone, QrCode, Download, ExternalLink, Volume2, Activity, Zap } from 'lucide-react'
-import { clsx } from 'clsx'
+import { Smartphone, QrCode, ExternalLink, Volume2, Activity, Zap } from 'lucide-react'
 
 interface PhyphoxExperimentProps {
   experiment: {
