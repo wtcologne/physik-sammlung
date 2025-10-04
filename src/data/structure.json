@@ -78,7 +78,31 @@
             "synergien": [
               "Beobachtungen/Beschreibungen/Protokolle ↔ Biologie (IF 1)"
             ]
-          }
+          },
+          "experiments": [
+            {
+              "title": "Temperaturmessung mit verschiedenen Thermometern",
+              "type": "hands-on",
+              "description": "Vergleiche verschiedene Thermometer-Typen und ihre Messgenauigkeit",
+              "materials": [
+                "Digitalthermometer",
+                "Flüssigkeitsthermometer",
+                "Infrarot-Thermometer",
+                "Warmes und kaltes Wasser"
+              ],
+              "procedure": [
+                "Fülle drei Becher mit Wasser unterschiedlicher Temperaturen",
+                "Miss die Temperatur mit jedem Thermometer-Typ",
+                "Vergleiche die Messwerte und Reaktionszeiten",
+                "Notiere deine Beobachtungen"
+              ],
+              "duration": 20,
+              "difficulty": "einfach"
+            }
+          ],
+          "simulations": [
+            "thermolab"
+          ]
         },
         {
           "id": "6-2-leben-bei-verschiedenen-temperaturen",

@@ -6,6 +6,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { EmptyState } from '@/components/EmptyState'
 import { SchwingungSimulation } from '@/components/simulations/SchwingungSimulation'
 import { SenderEmpfaengerSimulation } from '@/components/simulations/SenderEmpfaengerSimulation'
+import { ThermoLabSimulation } from '@/components/simulations/ThermoLabSimulation'
 import { ExperimentCard } from '@/components/experiments/ExperimentCard'
 import { CollapsibleSection } from '@/components/CollapsibleSection'
 import { Clock, GraduationCap, BookOpen, ArrowLeft } from 'lucide-react'
@@ -357,6 +358,13 @@ export function TileDetailPage() {
                 </p>
                 <SchwingungSimulation />
                 <SenderEmpfaengerSimulation />
+              </div>
+            ) : tile.id === '6-1-wir-messen-temperaturen' ? (
+              <div className="space-y-8">
+                <p className="text-muted-foreground mb-6">
+                  Entdecke die Welt der Temperatur und Wärme mit interaktiven Experimenten!
+                </p>
+                <ThermoLabSimulation />
               </div>
             ) : (
               <div className="p-6 bg-muted/30 rounded-lg border border-dashed border-border">
