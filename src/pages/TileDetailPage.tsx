@@ -200,8 +200,11 @@ export function TileDetailPage() {
 
           {/* Kompetenzen */}
           {tile.kompetenzen && tile.kompetenzen.length > 0 && (
-            <div className="mt-8">
-              <h2 className="text-lg font-semibold text-foreground mb-3">Schwerpunkte der Kompetenzentwicklung</h2>
+            <CollapsibleSection 
+              title="Schwerpunkte der Kompetenzentwicklung" 
+              icon="🎯"
+              defaultOpen={false}
+            >
               <div className="grid gap-3 sm:grid-cols-2">
                 {tile.kompetenzen.map((kompetenz, index) => {
                   // Prüfe ob es das neue oder Legacy-Format ist
@@ -236,13 +239,16 @@ export function TileDetailPage() {
                   )
                 })}
               </div>
-            </div>
+            </CollapsibleSection>
           )}
 
           {/* Weitere Vereinbarungen (neue Struktur) */}
           {tile.weitere_vereinbarungen && (tile.weitere_vereinbarungen.schwerpunktsetzung || tile.weitere_vereinbarungen.vernetzung || tile.weitere_vereinbarungen.synergien || tile.weitere_vereinbarungen.zusatz) && (
-            <div className="mt-8">
-              <h2 className="text-lg font-semibold text-foreground mb-3">Weitere Vereinbarungen</h2>
+            <CollapsibleSection 
+              title="Weitere Vereinbarungen" 
+              icon="📋"
+              defaultOpen={false}
+            >
               <div className="space-y-4">
                 {tile.weitere_vereinbarungen.schwerpunktsetzung && tile.weitere_vereinbarungen.schwerpunktsetzung.length > 0 && (
                   <div className="p-4 rounded-lg border border-border bg-card">
@@ -297,13 +303,16 @@ export function TileDetailPage() {
                   </div>
                 )}
               </div>
-            </div>
+            </CollapsibleSection>
           )}
 
           {/* Legacy Vereinbarungen (fallback) */}
           {!tile.weitere_vereinbarungen && tile.vereinbarungen && (tile.vereinbarungen.schwerpunktsetzung || tile.vereinbarungen.vernetzung) && (
-            <div className="mt-8">
-              <h2 className="text-lg font-semibold text-foreground mb-3">Weitere Vereinbarungen</h2>
+            <CollapsibleSection 
+              title="Weitere Vereinbarungen" 
+              icon="📋"
+              defaultOpen={false}
+            >
               <div className="space-y-4">
                 {tile.vereinbarungen.schwerpunktsetzung && tile.vereinbarungen.schwerpunktsetzung.length > 0 && (
                   <div className="p-4 rounded-lg border border-border bg-card">
@@ -332,7 +341,7 @@ export function TileDetailPage() {
                   </div>
                 )}
               </div>
-            </div>
+            </CollapsibleSection>
           )}
 
           {/* Simulation Section */}
